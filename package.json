@@ -1,0 +1,36 @@
+{
+  "name": "JSer.info-editor",
+  "description": "Editor for JSer.info",
+  "version": "1.0.0",
+  "homepage": "https://github.com/azu/JSer.info-editor/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/JSer.info-editor.git"
+  },
+  "main": "./app/Main/main-view.html",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "directories": {
+    "test": "test/"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/JSer.info-editor/issues"
+  },
+  "dependencies": {
+    "codemirror": "^4.5.0",
+    "gulp": "^3.8.8",
+    "gulp-git": "^0.5.0",
+    "local-store": "^0.2.0",
+    "map-stream": "^0.1.0",
+    "ractive": "^0.5.7",
+    "traceur": "0.0.62",
+    "vinyl-fs": "^0.3.7",
+    "vue": "^0.10.6"
+  },
+  "devDependencies": {
+    "es6ify": "^1.3.0"
+  }
+}

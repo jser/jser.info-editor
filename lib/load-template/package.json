@@ -1,0 +1,11 @@
+{
+  "name": "load-template",
+  "version": "1.0.0",
+  "description": "load template hbs",
+  "main": "load-template.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "azu",
+  "license": "MIT"
+}

@@ -1,0 +1,13 @@
+<div>
+    <h3>{{title}}</h3><a href="{{url}}">{{url}}</a>
+
+    <div class="jser-content {{ isEditing ? "hidden" : "" }}"
+         on-dblclick="edit">{{content}}</div>
+    <textarea class="placeholder-editor hidden" title="hidden-textarea"></textarea>
+
+    <ul>
+    {{#relatedLinks}}
+        <li>{{title}} - {{url}}</li>
+    {{/relatedLinks}}
+    </ul>
+</div>
