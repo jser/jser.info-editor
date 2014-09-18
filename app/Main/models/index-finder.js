@@ -2,7 +2,7 @@
 var path = require("path");
 var config = require("../../Config/jser-config");
 function format0(str, len) {
-    return ('_' + Math.pow(10, lemn) + str).slice(-len);
+    return ('_' + Math.pow(10, len) + str).slice(-len);
 }
 /**
  * Return index.json path which find from `Date` object

@@ -1,0 +1,1265 @@
+{
+    "list": [
+        {
+            "title": "Highlights from recent Chromium, Blink, Skia and v8 commits",
+            "url": "http://commits.peter.sh/",
+            "content": "Chromium,Blink,Skia,V8のコミットハイライトをまとめてるpeterさんのサイト。\nRSSも追加された",
+            "tags": [
+                "Chrome",
+                "blink",
+                "V8",
+                "git"
+            ],
+            "date": "2014-08-01T01:40:09.772Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "V8 Memory Corruption and Stack Overflow (fixed in Node v0.8.28 and v0.10.30)",
+            "url": "http://blog.nodejs.org/2014/07/31/v8-memory-corruption-stack-overflow/",
+            "content": "Node 0.10.xと0.8.xのsecurity fix.",
+            "tags": [
+                "node.js",
+                "ReleaseNote",
+                "セキュリティ"
+            ],
+            "date": "2014-08-01T01:47:31.696Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Atom Shell vs Node-Webkit - 牛角堂",
+            "url": "http://blog.iwege.com/posts/atom-shell-vs-node-webkit.html",
+            "content": "Atom Shellとnode-webkitの比較。\nentry-pointの違い、Chromiumアップデートの対応(ビルドシステム)、マルチコンテキスト、プロセス分離とコミュニケーション、パッケージ管理などについて",
+            "tags": [
+                "atom",
+                "node-webkit"
+            ],
+            "date": "2014-08-01T03:16:59.040Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "EcmaScript 6 Template Strings | mozintern",
+            "url": "http://mozintern.wordpress.com/2014/07/31/ecmascript-6-template-strings-2/",
+            "content": "Firefox34あたりで入るTwmplate Stringsについて",
+            "tags": [
+                "firefox",
+                "JavaScript"
+            ],
+            "date": "2014-08-03T02:05:42.371Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "flerro/jop",
+            "url": "https://github.com/flerro/jop",
+            "content": "Node.js製のJSONを扱うコマンドラインツール。\n整形表示、データのフィルタリング、カウント、グループング、変換等。jq的なツール",
+            "tags": [
+                "JSON",
+                "console",
+                "Tools"
+            ],
+            "date": "2014-08-03T02:41:57.676Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Brackets 0.42 Release (Themes!) – Brackets Blog",
+            "url": "http://blog.brackets.io/2014/08/01/brackets-0-42-release-themes/",
+            "content": "Brackets 0.42リリース。\nテーマのサポート",
+            "tags": [
+                "JavaScript",
+                "IDE",
+                "ReleaseNote"
+            ],
+            "date": "2014-08-03T02:51:11.801Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Amazon: 入門Backbone.js (Programmer's SELECTION): James Sugrue",
+            "url": "http://www.amazon.co.jp/dp/479813712X?tag=amazon0abac-22",
+            "content": "2014年8月29日発売\nhttp://www.apress.com/9781430263340 の翻訳本",
+            "tags": [
+                "backbone.js",
+                "翻訳",
+                "book"
+            ],
+            "date": "2014-08-03T02:52:41.190Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Announcing Scala.js 0.5.3",
+            "url": "http://www.scala-js.org/news/2014/07/30/announcing-scalajs-0.5.3/",
+            "content": "Scala.js 0.5.3 リリース。\nパフォーマンスの改善",
+            "tags": [
+                "JavaScript",
+                "scala",
+                "ReleaseNote"
+            ],
+            "date": "2014-08-03T15:06:38.183Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "JavaScript and V8 TurboFan",
+            "url": "http://ariya.ofilabs.com/2014/08/javascript-and-v8-turbofan.html",
+            "content": "V8にlandedしたばかりの新しいOptimizing compilerであるTurboFanについての解説。\nCrankshaftの後任的なものでまだ開発が始まったばかり",
+            "tags": [
+                "JavaScript",
+                "V8"
+            ],
+            "date": "2014-08-04T05:16:35.369Z",
+            "relatedLinks": [
+                {
+                    "title": "[v8] r22709 committed - Land the Fan (disabled)... - Google グループ",
+                    "url": "https://groups.google.com/forum/#!msg/v8-dev/ab8V5Z58_70/5-05DvysCt8J"
+                }
+            ]
+        },
+        {
+            "title": "facebook/immutable-js",
+            "url": "https://github.com/facebook/immutable-js",
+            "content": "immutableなVector、Map、Set等を提供してくれるライブラリ。\nそれぞれ同名のオブジェクトと同じメソッドを提供しくれるのと、遅延シーケンスに対応してる。\nES6で書かれてる",
+            "tags": [
+                "JavaScript",
+                "関数型プログラミング",
+                "library"
+            ],
+            "date": "2014-08-04T05:26:38.290Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "DOM Event Delegation without jQuery | Matt Andrews",
+            "url": "https://mattandre.ws/2014/08/small-beautiful-dom-delegation/",
+            "content": "依存がないシンプルなDOM delegateライブラリ。\nelementを取って、そこに対してイベントを設定出来る",
+            "tags": [
+                "DOM",
+                "JavaScript",
+                "library"
+            ],
+            "date": "2014-08-04T05:56:10.405Z",
+            "relatedLinks": [
+                {
+                    "title": "ftlabs/ftdomdelegate",
+                    "url": "https://github.com/ftlabs/ftdomdelegate"
+                }
+            ]
+        },
+        {
+            "title": "Using ECMAScript 6 today",
+            "url": "http://www.2ality.com/2014/08/es6-today.html",
+            "content": "今日から使えるES6について。\nES6の機能のハイライトやライブラリやツール、Traceur等のTranspilerについて。\n",
+            "tags": [
+                "JavaScript",
+                "ECMAScript",
+                "Tools"
+            ],
+            "date": "2014-08-04T12:02:09.109Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "rakuten-nlp/rakutenma",
+            "url": "https://github.com/rakuten-nlp/rakutenma",
+            "content": "形態素解析器ライブラリ。\n日本語と中国語の分から単語単位に分割し、品詞を付与出来る",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "date": "2014-08-07T22:11:36.206Z",
+            "relatedLinks": [
+                {
+                    "title": "Twitter / rakuten_tech: 楽天技術研究所は本日、JavaScript版・形態素解析器R ...",
+                    "url": "https://twitter.com/rakuten_tech/status/496913434668064768"
+                }
+            ]
+        },
+        {
+            "title": "Best Practices for Building Angular.js Apps with BrowerifyModern Web",
+            "url": "http://medium.com/@dickeyxxx/best-practices-for-building-angular-js-apps-266c1a4a6917",
+            "content": "Angular.JSにはmodule機能があるため、BrowserifyやRequire.JSのようなビルドを使わなくてもconcatするだけでも問題ないという話。\nconcatでもsourcemapは対応できて、何よりシンプル。",
+            "tags": [
+                "AngularJS",
+                "browserify"
+            ],
+            "date": "2014-08-08T06:52:59.206Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Why Web Components Are Ready For Production -Telerik Developer Network",
+            "url": "http://developer.telerik.com/featured/web-components-ready-production/",
+            "content": "Web componentsは複雑で現時点ではpolyfillは難しいが、Custom Elementに関してはシンプルなAPIであるためPolyfillが簡単で、現実に使うことができるという話",
+            "tags": [
+                "WebComponents"
+            ],
+            "date": "2014-08-08T07:00:54.555Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "The State of the Componentised Web - Blog - Events, News, and Videos for Web Designers and Developers",
+            "url": "http://www.futureinsights.com/home/the-state-of-the-componentised-web.html",
+            "content": "ウェブにおけるコンポーネントの流れについて。\nAngularやEmberなどがもつコンポーネントを作る機能の紹介とWeb componentsについて簡単にまとまってる",
+            "tags": [
+                "JavaScript",
+                "MVC",
+                "WebComponents"
+            ],
+            "date": "2014-08-09T04:17:17.101Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "WebStorm 9 EAP is Open! | JetBrains WebStorm Blog",
+            "url": "http://blog.jetbrains.com/webstorm/2014/08/webstorm-9-eap/",
+            "content": "WebStorm 9EAPリリース。\nLive Editの強化、JavaScriptのトレーシングを行うSpy-jsがNode.jsに対応、PhoneGap対応、`.if`などを末尾から補完出来る、Postfix templates の追加、EditorConfig、Web componentsの対応",
+            "tags": [
+                "WebStorm",
+                "ReleaseNote"
+            ],
+            "date": "2014-08-09T06:15:19.527Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "wu.js 2.0",
+            "url": "http://fitzgeraldnick.com/weblog/58/",
+            "content": "mapやreduceのような高階関数を提供するwu.js2.0リリース。\nES6に対応してGenrator関数なども受け取って処理することが出来るようになった。\n",
+            "tags": [
+                "ECMAScript",
+                "関数型プログラミング",
+                "JavaScript",
+                "library",
+                "ReleaseNote"
+            ],
+            "date": "2014-08-09T06:31:34.212Z",
+            "relatedLinks": [
+                {
+                    "title": "wu.js 2.0",
+                    "url": "http://fitzgeraldnick.com/weblog/58/"
+                }
+            ]
+        },
+        {
+            "title": "Stay up-to-date with Internet Explorer - IEBlog - Site Home - MSDN Blogs",
+            "url": "http://blogs.msdn.com/b/ie/archive/2014/08/07/stay-up-to-date-with-internet-explorer.aspx",
+            "content": "2016年1月12日からWindows OSとIEのバージョンのサポートサイクルが変更される。\nOSごとの最新版のIEのみをサポート対象として、後方互換性はエンタープライズモードを使えという方針になった",
+            "tags": [
+                "IE",
+                "ReleaseNote"
+            ],
+            "date": "2014-08-10T14:39:47.215Z",
+            "relatedLinks": [
+                {
+                    "title": "Internet Explorer のサポートライフサイクルが変更されます | Hebikuzure's Tech Memo",
+                    "url": "http://hebikuzure.wordpress.com/2014/08/08/lifecycle-change-on-internet-explorer/"
+                }
+            ]
+        },
+        {
+            "title": "tc39-notes/es6/2014-07 at master · rwaldron/tc39-notes",
+            "url": "https://github.com/rwaldron/tc39-notes/tree/master/es6/2014-07",
+            "content": "2014年7月度のECMAScriptの仕様策定に関するTC39 Meeting Notesが公開された。\ntest262の大幅な改善、SIMD-128、指数演算子についてなど",
+            "tags": [
+                "ECMAScript",
+                "資料"
+            ],
+            "date": "2014-08-10T15:17:23.197Z",
+            "relatedLinks": [
+                {
+                    "title": "bterlson/test262-harness",
+                    "url": "https://github.com/bterlson/test262-harness"
+                },
+                {
+                    "title": "simd-128-tc39.pdf",
+                    "url": "http://esdiscuss.org/notes/2014-07/simd-128-tc39.pdf"
+                },
+                {
+                    "title": "Exponentiation Operator: **",
+                    "url": "https://gist.github.com/rwaldron/ebe0f4d2d267370be882"
+                }
+            ]
+        },
+        {
+            "title": "github/time-elements",
+            "url": "https://github.com/github/time-elements",
+            "content": "GitHubで使われている`<time>`のCustom Elementsライブラリ",
+            "tags": [
+                "github",
+                "WebComponents"
+            ],
+            "date": "2014-08-11T05:25:10.761Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Wisembly/basil.js",
+            "url": "https://github.com/Wisembly/basil.js",
+            "content": "localstorage, cookie ,session storage , in memoryにおいて統一的なAPIで扱えるメソッドを提供してくれるライブラリ。",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "date": "2014-08-11T08:17:38.807Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Using PDF.js web worker cross domain (CORS) | ColonelPanic",
+            "url": "http://colonelpanic.net/2014/08/using-pdf-js-web-worker-cross-domain-cors/",
+            "content": "WebWorker内でXHRをして取得したリソースを、`URL.createObjectURL`でblob URLにして、blob URLを受け取って使うという話",
+            "tags": [
+                "JavaScript",
+                "webworker"
+            ],
+            "date": "2014-08-11T09:08:42.229Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Speeding up AngularJS apps with simple optimizations - Tutorial - Binpress",
+            "url": "http://www.binpress.com/tutorial/speeding-up-angular-js-with-simple-optimizations/135",
+            "content": "AngularJSパフォーマンス改善Tips.\n`{{ ::title }}` 一度きりのバインディング、$scope.$apply() と $scope.$digest()の違い、ng-repeat、ディレクティブ内でのDOM操作について",
+            "tags": [
+                "AngularJS",
+                "performance"
+            ],
+            "date": "2014-08-11T09:11:38.766Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "trek/pretender",
+            "url": "https://github.com/trek/pretender",
+            "content": "HTTPモックライブラリ。\nXHRをFakeXHRにすり替えておき、リクエストに対するレスポンスの定義して、任意のリソースへのリクエストをテストするモックライブラリ。\n",
+            "tags": [
+                "JavaScript",
+                "library",
+                "HTTP",
+                "testing"
+            ],
+            "date": "2014-08-11T12:16:48.585Z",
+            "relatedLinks": [
+                {
+                    "title": "trek/FakeXMLHttpRequest",
+                    "url": "https://github.com/trek/FakeXMLHttpRequest"
+                }
+            ]
+        },
+        {
+            "title": "Server Sent Events(SSE)の使いどころと使い方 | GREE Engineers' Blog",
+            "url": "http://labs.gree.jp/blog/2014/08/11070/",
+            "content": "Server Sent Eventsについての解説。\nCometと違い標準仕様が定義されている点や、WebSocketと違いHTTPを使うため通信的な互換性が高いあり、Polyfillが作れる事や現状の問題点について書かれている",
+            "tags": [
+                "JavaScript",
+                "W3C",
+                "XHR",
+                "WebSocket"
+            ],
+            "date": "2014-08-11T12:33:51.151Z",
+            "relatedLinks": [
+                {
+                    "title": "Server Side Events",
+                    "url": "http://www.slideshare.net/thepilif/server-side-events"
+                },
+                {
+                    "title": "リアルタイムWebの栄光を願い!! これから死に行くせめてものこの間に!! SSEの戦術的価値を説きます!!",
+                    "url": "http://0-9.sakura.ne.jp/pub/HTML5han/start.html"
+                }
+            ]
+        },
+        {
+            "title": "古めかしいCGを描くためのライブラリ gretro です - 音の鳴るブログ",
+            "url": "http://mohayonao.hatenablog.com/entry/2014/08/12/111859",
+            "content": "Canvasで描くとどうしてもモダンな感じになってしまうという問題を解決するライブラリ。\n色やパターンを絞ってレトロな感じのCanvasを描画出来る",
+            "tags": [
+                "JavaScript",
+                "canvas",
+                "library"
+            ],
+            "date": "2014-08-12T03:35:01.767Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Release v0.8.0: Release 0.8.0 (2014-08-12) · twada/power-assert",
+            "url": "https://github.com/twada/power-assert/releases/tag/v0.8.0",
+            "content": "power-assert 0.8.0リリース。\nespowerのオプションでアサーションの指定がescallmatchを使ったパターンを渡す方法に変更。デフォルト設定を使っている場合はそのまま維持される。",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "library",
+                "ReleaseNote"
+            ],
+            "date": "2014-08-13T05:48:10.620Z",
+            "relatedLinks": [
+                {
+                    "title": "twada/escallmatch",
+                    "url": "https://github.com/twada/escallmatch"
+                }
+            ]
+        },
+        {
+            "title": "arian/partition-bundle",
+            "url": "https://github.com/arian/partition-bundle",
+            "content": "Browserify内にAMD的な動的ロードを持ち込むplugin。\n動的に読み込みたいjsファイルを定義した設定ファイルを作り、動的に読み込むようにrequireではなく`loadjs`関数を使って読み込む。",
+            "tags": [
+                "browserify",
+                "plugin",
+                "library"
+            ],
+            "date": "2014-08-14T00:43:49.830Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Rome",
+            "url": "http://bevacqua.github.io/rome/",
+            "content": "依存がないDate/Time Picker UIライブラリ。\n",
+            "tags": [
+                "JavaScript",
+                "UI",
+                "library"
+            ],
+            "date": "2014-08-14T01:01:15.157Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Opinionated Rundown of JS Frameworks | Blog",
+            "url": "http://blog.andyet.com/2014/08/13/opinionated-rundown-of-js-frameworks",
+            "content": "HumanJSの人によるJavaScript MV*のまとめ\nAngular/Ember/React/Polymer/Backbone.js/Vanilla/Ampersand.js",
+            "tags": [
+                "JavaScript",
+                "MVC",
+                "まとめ"
+            ],
+            "date": "2014-08-14T01:25:51.629Z",
+            "relatedLinks": [
+                {
+                    "title": "シングルページアプリづくりのJavaScriptフレームワーク比較 - ワザノバ | wazanova",
+                    "url": "http://wazanova.jp/items/1474"
+                }
+            ]
+        },
+        {
+            "title": "jQuery UI 1.11.1 | jQuery UI Blog",
+            "url": "http://blog.jqueryui.com/2014/08/jquery-ui-1-11-1/",
+            "content": "jQuery UI 1.11.1リリース",
+            "tags": [
+                "jQuery",
+                "UI",
+                "ReleaseNote"
+            ],
+            "date": "2014-08-14T01:36:44.833Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "gwendall/way.js",
+            "url": "https://github.com/gwendall/way.js",
+            "content": "HTML formで入力した内容をStorageに保存したり、JSONにしたり、監視や値のやり取りが出来るライブラリ。\nフォームに属性をしておくだけで、フォーム内容の保存的な事が出来る",
+            "tags": [
+                "DOM",
+                "JavaScript",
+                "library"
+            ],
+            "date": "2014-08-15T01:08:39.588Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Announcing new F12 dev tools features in August update - IEBlog - Site Home - MSDN Blogs",
+            "url": "http://blogs.msdn.com/b/ie/archive/2014/08/14/announcing-new-f12-dev-tools-features-in-august-update.aspx",
+            "content": "IE11のF12開発者ツールの変更点について。\nカラーピッカー、sourcemapの選択機能、他のの強化、Asyncコールスタック、パフォーマンス、メモリパネルでセッションをImport/exportが可能になる等",
+            "tags": [
+                "IE",
+                "debug"
+            ],
+            "date": "2014-08-16T09:23:44.623Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "ESNext for humans - LvivJS 16 August 2014",
+            "url": "http://www.slideshare.net/janjongboom/esnext-for-humans-lvivjs-16-august-2014",
+            "content": "ES6についてのスライド。\n新しい構文についての紹介がメインでGeneratorについて詳しく説明してる",
+            "tags": [
+                "ECMAScript",
+                "JavaScript",
+                "スライド"
+            ],
+            "date": "2014-08-16T10:49:34.195Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Compass 1.0 is Released! | Compass Documentation",
+            "url": "http://compass-style.org/blog/2014/08/15/omg-compass-1-0/",
+            "content": "Compass 1.0リリース。\nベンダーprefixはcaniuseを利用、コマンドラインツールなしにライブラリとして利用可能に、sourcemapサポート、import-onceでのパフォーマンス改善等",
+            "tags": [
+                "Sass",
+                "library",
+                "ReleaseNote"
+            ],
+            "date": "2014-08-16T14:07:08.245Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "thlorenz/browserify-devdupe · GitHub",
+            "url": "https://github.com/thlorenz/browserify-devdupe",
+            "content": "browserify bundleを作るときにnpm dedupeみたいな事をするモジュール",
+            "tags": [
+                "browserify",
+                "npm",
+                "library"
+            ],
+            "date": "2014-08-18T03:10:16.816Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "長期かつ修正頻度の高いPJでのCSSメンテ - ワザノバ | wazanova",
+            "url": "http://wazanova.jp/items/1484",
+            "content": "大規模プロジェクトでのCSSのメンテナンスビリティについて。\nDRYより修正する時に迷わず消せるような疎結合なコンポーネントであるとよい、プロジェクにおける命名ルールを持つことはいいこと、ファイルの管理、ライブラリmixinについて等",
+            "tags": [
+                "CSS",
+                "設計",
+                "翻訳"
+            ],
+            "date": "2014-08-18T05:44:12.216Z",
+            "relatedLinks": [
+                {
+                    "title": "Enduring CSS: writing style sheets for rapidly changing, long-lived projects - Author and responsive web developer Ben Frain",
+                    "url": "http://benfrain.com/enduring-css-writing-style-sheets-rapidly-changing-long-lived-projects/"
+                }
+            ]
+        },
+        {
+            "title": "Web Reflection: PointerEvents No More",
+            "url": "http://webreflection.blogspot.com/2014/08/pointerevents-no-more.html",
+            "content": "BlinkはPointerEventsを実装しないことにした。\n- touch eventsが既にある\n- hit-testモデルがパフォーマンス的に不利\n- 複雑すぎる\n",
+            "tags": [
+                "Chrome",
+                "event"
+            ],
+            "date": "2014-08-18T06:03:06.596Z",
+            "relatedLinks": [
+                {
+                    "title": "Issue 162757 - chromium - Implement pointer events in Chrome behind experimental flag - An open-source project to help move the web forward. - Google Project Hosting",
+                    "url": "https://code.google.com/p/chromium/issues/detail?id=162757#c64"
+                },
+                {
+                    "title": "PSA: PointerEvents and PointerGestures are being replaced by polymer-gestures, breaking changes for pointer* events - Google グループ",
+                    "url": "https://groups.google.com/forum/#!topic/polymer-dev/ba4aDyOozm8"
+                }
+            ]
+        },
+        {
+            "title": "JavaScript Test-Driven Development with Jasmine 2.0 and Karma",
+            "url": "http://www.slideshare.net/cebartling/javascript-38057372",
+            "content": "Jasmine2.0とKarmaについてのスライド。\njasmine spyについて紹介されてる",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "library",
+                "スライド"
+            ],
+            "date": "2014-08-18T08:16:52.254Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Knockout 3.2.0 released - Steve Sanderson’s blog - As seen on YouTube™",
+            "url": "http://blog.stevensanderson.com/2014/08/18/knockout-3-2-0-released/",
+            "content": "Knockout 3.2.0リリース。\nComponents、Custom Elements、textInputのバインディングなどの追加。\nIE6のサポートは維持",
+            "tags": [
+                "JavaScript",
+                "MVC",
+                "library",
+                "ReleaseNote"
+            ],
+            "date": "2014-08-19T00:32:06.683Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Release JSHint 2.5.4 · jshint/jshint",
+            "url": "https://github.com/jshint/jshint/releases/tag/2.5.4",
+            "content": "JSHint 2.5.4リリース。\n",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "ReleaseNote"
+            ],
+            "date": "2014-08-19T05:29:23.114Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Sass 3.4 is Released « Sass Blog",
+            "url": "http://blog.sass-lang.com/posts/221239-sass-34-is-released",
+            "content": "Sass 3.4 リリース。\nparent selector `&`の扱いを改善、Selector Functionsで`&`を使えるように。`@error` ディレクティブの追加、sourcemapの生成がデフォルトに鳴るなど",
+            "tags": [
+                "Sass",
+                "ReleaseNote"
+            ],
+            "date": "2014-08-19T05:33:09.899Z",
+            "relatedLinks": [
+                {
+                    "title": "File: SASS_CHANGELOG — Sass Documentation",
+                    "url": "http://sass-lang.com/documentation/file.SASS_CHANGELOG.html"
+                },
+                {
+                    "title": "@error directive · Issue #747 · sass/sass",
+                    "url": "https://github.com/sass/sass/issues/747"
+                }
+            ]
+        },
+        {
+            "title": "mizchi/bower-build",
+            "url": "https://github.com/mizchi/bower-build",
+            "content": "bowerの`main`で指定されているファイルをconcatしたものを生成するツール",
+            "tags": [
+                "JavaScript",
+                "Tools"
+            ],
+            "date": "2014-08-19T11:54:52.828Z",
+            "relatedLinks": [
+                {
+                    "title": "bower-buildでbowerで入れたファイルを一つにconcatする - Qiita",
+                    "url": "http://qiita.com/mizchi/items/67fcaf92ef3e8e5ac393"
+                }
+            ]
+        },
+        {
+            "title": "August updates for Internet Explorer - IEBlog - Site Home - MSDN Blogs",
+            "url": "http://blogs.msdn.com/b/ie/archive/2014/08/13/august-updates-for-internet-explorer.aspx",
+            "content": "2014年8月のIE11のアップデートについて。\nF12開発者ツールの改善、WebGLの改善、WebDriverのサポート",
+            "tags": [
+                "IE",
+                "ReleaseNote"
+            ],
+            "date": "2014-08-19T12:09:27.501Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "browserify-loader 介绍 - 寸志 - SegmentFault",
+            "url": "http://blog.segmentfault.com/zhicun/1190000000640242",
+            "content": "https://github.com/island205/browserify-loader についての紹介記事。\nrequrejsのように`main`属性で読み込むものを指定して使うローダーライブラリ",
+            "tags": [
+                "browserify",
+                "AMD",
+                "CommonJS",
+                "library"
+            ],
+            "date": "2014-08-20T00:58:32.298Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Node v0.10.31 (Stable)",
+            "url": "http://blog.nodejs.org/2014/08/19/node-v0-10-31-stable/",
+            "content": "Node v0.10.31 リリース。\n",
+            "tags": [
+                "node.js",
+                "ReleaseNote"
+            ],
+            "date": "2014-08-21T02:37:39.205Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "WebStorm+Spy-jsの使い方 - Qiita",
+            "url": "http://qiita.com/laco0416/items/985044f0019ebef6cb2c",
+            "content": "WebStormから使えるspy-jsの機能や使い方について",
+            "tags": [
+                "WebStorm",
+                "Tools"
+            ],
+            "date": "2014-08-21T05:41:46.863Z",
+            "relatedLinks": [
+                {
+                    "title": "WebStorm - Node.jsでもSpy-jsを使ってみる - Qiita",
+                    "url": "http://qiita.com/laco0416/items/6a45b08da45385dda746"
+                }
+            ]
+        },
+        {
+            "title": "ストリーム表現とその変換 - ✘╹◡╹✘",
+            "url": "http://r7kamura.hatenablog.com/entry/2014/08/21/113654",
+            "content": "リアクティブプログラミングにおけるストリームの実装ライブラリと、ストリームについての解説。\nストリームの作成、ストリームを変換するmap、filter、scanについて",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "date": "2014-08-21T13:41:05.428Z",
+            "relatedLinks": [
+                {
+                    "title": "【翻訳】あなたが求めていたリアクティブプログラミング入門 - ninjinkun's diary",
+                    "url": "http://ninjinkun.hatenablog.com/entry/introrxja"
+                }
+            ]
+        },
+        {
+            "title": "joyent/node-vstream",
+            "url": "https://github.com/joyent/node-vstream",
+            "content": "node streamをラップして、データのダンプやチェック機能等を付けられるモジュール。",
+            "tags": [
+                "node.js",
+                "stream",
+                "library"
+            ],
+            "date": "2014-08-21T13:58:53.687Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "bevacqua/js",
+            "url": "https://github.com/bevacqua/js/",
+            "content": "\"JavaScript Quality Guide\"\nJavaScriptコーディングスタイルルール。\n",
+            "tags": [
+                "JavaScript"
+            ],
+            "date": "2014-08-21T14:01:19.633Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "ECMAScript 6 support in Mozilla - JavaScript | MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_6_support_in_Mozilla",
+            "content": "FirefoxのES6サポート状況についてまとまってるページ",
+            "tags": [
+                "firefox",
+                "ECMAScript",
+                "まとめ"
+            ],
+            "date": "2014-08-21T14:08:45.632Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Duo",
+            "url": "http://duojs.org/",
+            "content": "Componentライクなパッケージ管理ツール。component.jsonでまとめられたコンポーネントからビルドしたjsやcssを生成出来る。またGo言語のようにrequireに直接GitHubのレポジトリを指定して使うことも出来る",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "GoLang",
+                "browserify"
+            ],
+            "date": "2014-08-22T15:00:45.796Z",
+            "relatedLinks": [
+                {
+                    "title": "the future of component? · Issue #594 · component/component",
+                    "url": "https://github.com/component/component/issues/594"
+                },
+                {
+                    "title": "duo? · Issue #27 · normalize/discussions",
+                    "url": "https://github.com/normalize/discussions/issues/27"
+                }
+            ]
+        },
+        {
+            "title": "Ment.io examples",
+            "url": "http://jeff-collins.github.io/ment.io/#/",
+            "content": "COntent EditableとかテキストエリアでGitHub的な@ mentionの補完が出来るライブラリ",
+            "tags": [
+                "JavaScript",
+                "library",
+                "AngularJS"
+            ],
+            "date": "2014-08-23T02:36:10.514Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Release 3.0 “Liberté, Égalité, Fraternité” · postcss/autoprefixer",
+            "url": "https://github.com/postcss/autoprefixer/releases/tag/3.0.0",
+            "content": "Autoprefixer 3.0リリース。\n`autoprefixer()`のAPIの変更、coreは分離、CoffeeからES6で書き直し、リポジトリがpostcssに移動した",
+            "tags": [
+                "CSS",
+                "node.js",
+                "Tools"
+            ],
+            "date": "2014-08-23T03:09:31.796Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "normalize.io - an ES6 module, Web Component, and SPDY/HTTP2 Push frontend development worfklow",
+            "url": "https://normalize.github.io/",
+            "content": "ES6 moudle/HTML Import/CSS importで書いてimportしたものをビルド出来るパッケージ管理ツール。\nnpm、URL、components等に対応してて、パッケージをURLで指定するという原則を持ってる",
+            "tags": [
+                "node.js",
+                "CSS",
+                "JavaScript",
+                "Tools"
+            ],
+            "date": "2014-08-23T08:03:46.770Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Sass 3.4 is Out!",
+            "url": "http://www.sitepoint.com/sass-3-4-is-out/",
+            "content": "Sass3.4の更新内容について。\nparent selector 、selector function、 `@error` ディレクティブなどについて",
+            "tags": [
+                "Sass"
+            ],
+            "date": "2014-08-23T08:51:14.474Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "styledown/styledown · GitHub",
+            "url": "https://github.com/styledown/styledown",
+            "content": "CSSスタイルガイド生成ツール。 コメントでmarkdownで書いてスタイルガイドを生成する",
+            "tags": [
+                "CSS",
+                "Markdown",
+                "document"
+            ],
+            "date": "2014-08-24T04:38:47.333Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "hail2u/node-csswring",
+            "url": "https://github.com/hail2u/node-csswring/",
+            "content": "CSSから余分な記述を取り除いたり、書き換える事で圧縮するツール。\nSourceMapに対応してる",
+            "tags": [
+                "CSS",
+                "Tools"
+            ],
+            "date": "2014-08-24T12:28:34.680Z",
+            "relatedLinks": [
+                {
+                    "title": "CSSWring v1.1.0 - Weblog - Hail2u.net",
+                    "url": "http://hail2u.net/blog/webdesign/node-csswring-v1.1.0.html"
+                }
+            ]
+        },
+        {
+            "title": "soliton4/nodeMirror",
+            "url": "https://github.com/soliton4/nodeMirror",
+            "content": "node.js + CodeMirrorなブラウザで動くIDE的なツール。\nローカルサーバを立ち上げて、ブラウザで使う。hexエディタ、ターミナル、HTMLの表示などが出来る",
+            "tags": [
+                "node.js",
+                "editor",
+                "JavaScript",
+                "library"
+            ],
+            "date": "2014-08-24T14:40:23.455Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "5 Minutes of JavaScript - The latest news in the JavaScript community",
+            "url": "http://five-js.envylabs.com/episodes/42-episode-41-august-21st-2014",
+            "content": "週間JavaScriptなPodcast",
+            "tags": [
+                "podcast",
+                "JavaScript"
+            ],
+            "date": "2014-08-24T15:34:52.966Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "WebRTC で動く Chord DHT の実装 webrtc-chord を公開しました - tsujio’s blog",
+            "url": "http://ntsujio.hatenablog.com/entry/2014/07/03/221023",
+            "content": "WebRTCを使った分散ハッシュテーブル (DHT: Distributed Hash Table) の実装",
+            "tags": [
+                "JavaScript",
+                "WebRTC"
+            ],
+            "date": "2014-08-25T09:12:55.201Z",
+            "relatedLinks": [
+                {
+                    "title": "tsujio/webrtc-chord",
+                    "url": "https://github.com/tsujio/webrtc-chord"
+                }
+            ]
+        },
+        {
+            "title": "Advanced objects in JavaScript",
+            "url": "http://bjorn.tipling.com/advanced-objects-in-javascript",
+            "content": "JSのオブジェクトについて幅広く解説されてる。\ngetter/setter、definePropertyとPropertyDescriptor、Object.create、valueOfとtoString、ES6のProxyとSymbolについて",
+            "tags": [
+                "JavaScript",
+                "ECMAScript",
+                "tutorial"
+            ],
+            "date": "2014-08-25T12:26:31.641Z",
+            "relatedLinks": [
+                {
+                    "title": "Web Reflection: What Books Didn't Tell You About ES5 Descriptors - Part 1",
+                    "url": "http://webreflection.blogspot.jp/2014/03/what-books-wont-tell-you-about-es5.html"
+                },
+                {
+                    "title": "ES5, Property Descriptor解説 - 枕を欹てて聴く",
+                    "url": "http://constellation.hatenablog.com/entry/20101205/1291564928"
+                },
+                {
+                    "title": "Revisiting JavaScript Objects | LakTEK (Lakshan Perera)",
+                    "url": "http://www.laktek.com/2012/12/29/revisiting-javascript-objects/"
+                }
+            ]
+        },
+        {
+            "title": "slap-editor/slap",
+            "url": "https://github.com/slap-editor/slap",
+            "content": "node.js製のターミナル上で動くテキストエディタ。\nSublimeText的なファイルリストやマウスやキーバインドの対応などデフォルトでもそのまま使えるような感じで面白い",
+            "tags": [
+                "node.js",
+                "console",
+                "editor"
+            ],
+            "date": "2014-08-25T12:58:21.126Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Run CasperJS scripts online - CasperBox",
+            "url": "https://www.casperbox.com/",
+            "content": "CaperJSのコードをオンラインで書いて実行、REST APIとAPIを使って実行出来るライブラリを提供してるサービス",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "webservice",
+                "library"
+            ],
+            "date": "2014-08-26T04:35:40.338Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Amazon: JavaScript逆引きレシピ jQuery対応",
+            "url": "http://www.amazon.co.jp/dp/4798135461?tag=amazon0abac-22",
+            "content": "2014年8月29日発売\n電子版も同時リリース",
+            "tags": [
+                "JavaScript",
+                "book"
+            ],
+            "date": "2014-08-26T06:55:08.804Z",
+            "relatedLinks": [
+                {
+                    "title": "JavaScript逆引きレシピ jQuery対応（9784798139470）：翔泳社の電子書籍",
+                    "url": "http://www.shoeisha.co.jp/ebooks/detail/9784798139470"
+                }
+            ]
+        },
+        {
+            "title": "Announcing Sencha Touch 2.4 | Blog | Sencha",
+            "url": "http://www.sencha.com/blog/announcing-sencha-touch-2-4/",
+            "content": "Sencha Touch 2.4リリース。\nBlackBerry 10のサポート強化とtoast コンポーネントの追加",
+            "tags": [
+                "Sencha",
+                "ReleaseNote"
+            ],
+            "date": "2014-08-26T08:50:12.578Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Cheerp homepage",
+            "url": "http://leaningtech.com/cheerp/",
+            "content": "C++からJavaScriptへコードへのコードコンパイラ。\nLLVMを使用、DOM等扱うC++のラッパライブラリ的なのを持っている",
+            "tags": [
+                "C++",
+                "JavaScript"
+            ],
+            "date": "2014-08-26T09:32:32.765Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "CoffeeScript",
+            "url": "http://coffeescript.org",
+            "content": "CoffeeScript 1.8.0リリース。\nsourcemapのファイル名が.js.mapに変更、CLIの改善、`require(\"coffee-script/repl\")`をrequire出来るように",
+            "tags": [
+                "CoffeeScript",
+                "ReleaseNote"
+            ],
+            "date": "2014-08-27T01:17:08.611Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "twistdigital/es6-promisify",
+            "url": "https://github.com/twistdigital/es6-promisify",
+            "content": "nodeスタイルのコールバックを受け取る関数のPromiseラッパーを作るモジュール。",
+            "tags": [
+                "node.js",
+                "JavaScript",
+                "library"
+            ],
+            "date": "2014-08-27T05:12:34.108Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "harmony:specification_drafts [ES Wiki]",
+            "url": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts#august_24_2014_draft_rev_27",
+            "content": "ECMAScript 6 Draft Rev 27リリース。\nArray/generator comprehensionsの削除、Array.prototype.sortの実装依存についての明文化等",
+            "tags": [
+                "ECMAScript",
+                "ReleaseNote"
+            ],
+            "date": "2014-08-27T05:41:47.995Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Manning: Firefox OS in Action",
+            "url": "http://www.manning.com/jongboom/",
+            "content": "2015年春発売\nFirefox OS本",
+            "tags": [
+                "firefox",
+                "OS",
+                "book"
+            ],
+            "date": "2014-08-27T07:45:42.884Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "The Meteor blog",
+            "url": "https://www.meteor.com/blog/2014/08/26/meteor-090-new-packaging-system",
+            "content": "Meteor 0.9.0リリース",
+            "tags": [
+                "JavaScript",
+                "ReleaseNote"
+            ],
+            "date": "2014-08-27T13:07:29.231Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "O'Reilly Japan - モダンWeb",
+            "url": "http://www.oreilly.co.jp/books/9784873116921/",
+            "content": "2014年09月10日 発売\n",
+            "tags": [
+                "web",
+                "book"
+            ],
+            "date": "2014-08-27T15:11:01.785Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Underscore.js",
+            "url": "http://underscorejs.org/",
+            "content": "Underscore 1.7.0 リリース。\nArrayのネイティブ関数では無く独自の実装を使うように変更し高速化、`_.iteratee`がカスタマイズ可能に`_.before`のメソッド追加、`_.extend`の挙動がES6 `Object.assign`にあわせた形へ変更するなど。\n\"Sparse\" arrays、extend、union、template等破壊的な変更も多く含まれている。",
+            "tags": [
+                "JavaScript",
+                "library",
+                "ReleaseNote"
+            ],
+            "date": "2014-08-27T15:35:38.774Z",
+            "relatedLinks": [
+                {
+                    "title": "Release Underscore 1.7.0 by akre54 · Pull Request #1799 · jashkenas/underscore",
+                    "url": "https://github.com/jashkenas/underscore/pull/1799#issuecomment-53577944"
+                }
+            ]
+        },
+        {
+            "title": "The Pragmatic Bookshelf | Dart 1 for Everyone",
+            "url": "https://www.pragprog.com/book/csdart1/dart-1-for-everyone",
+            "content": "2014年10月10日発売\nGoogle Dartについての書籍",
+            "tags": [
+                "dart",
+                "book"
+            ],
+            "date": "2014-08-28T01:08:18.973Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Dart News & Updates: Dart 1.6 adds support for deferred loading",
+            "url": "http://news.dartlang.org/2014/08/dart-16-adds-support-for-deferred.html",
+            "content": "Dart 1.6リリース。\nloadLibraryというDeferred loadingを提供するlibraryが入った。",
+            "tags": [
+                "dart",
+                "ReleaseNote"
+            ],
+            "date": "2014-08-28T01:11:44.617Z",
+            "relatedLinks": [
+                {
+                    "title": "Deferred Loading in Dart | Dart: Structured web apps",
+                    "url": "https://www.dartlang.org/docs/spec/deferred-loading.html"
+                }
+            ]
+        },
+        {
+            "title": "Virtual DOMを持つMV*ライブラリのmercuryについて | Web Scratch",
+            "url": "http://efcl.info/2014/08/28/mercury/",
+            "content": "mercuryのModel(State)、View(Virtual DOM)、Controller(Event)について。\nモジュールを組み合わせた構造と関数型プログラミング的なアプローチがベースのライブラリ",
+            "tags": [
+                "JavaScript",
+                "DOM",
+                "library",
+                "MVC"
+            ],
+            "date": "2014-08-28T07:09:54.383Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Gravit – unlock your design potential.",
+            "url": "http://gravit.io/",
+            "content": "Illustratorライクなデザインツール。\nドローやレイヤー等の機能を持ってる\nブラウザで動かすこともできるオープンソースなアプリ。\nhttps://github.com/quasado/gravit",
+            "tags": [
+                "JavaScript",
+                "illust",
+                "software"
+            ],
+            "date": "2014-08-29T02:03:11.773Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "大規模開発でも小規模開発でも使える TypeScript実践入門：書籍案内｜技術評論社",
+            "url": "http://gihyo.jp/book/2014/978-4-7741-6711-4",
+            "content": "2014年9月12日発売\nTypeScriptについての書籍",
+            "tags": [
+                "TypeScript",
+                "book",
+                "windows"
+            ],
+            "date": "2014-08-29T12:29:46.529Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "MooTools - 1.5.1 is out!",
+            "url": "http://mootools.net/blog/2014/08/29/mootools-1-5-1-release/",
+            "content": "MooTools 1.5.1リリース・\nパッケージ周りの改善",
+            "tags": [
+                "JavaScript",
+                "ReleaseNote"
+            ],
+            "date": "2014-08-29T14:49:28.450Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "aster",
+            "url": "http://rreverser.com/aster-ast-based-code-builder/",
+            "content": "JavaScript ASTを処理するビルドツール。\nGruntやGulp等はtaskごとにパースと生成を繰り返すため非効率な部分がある。\nasterはASTに対して変換の処理をパイプラインで行うため無駄な処理が減る。",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "AST",
+                "library"
+            ],
+            "date": "2014-08-30T08:31:08.768Z",
+            "relatedLinks": [
+                {
+                    "title": "asterjs/aster",
+                    "url": "https://github.com/asterjs/aster"
+                }
+            ]
+        },
+        {
+            "title": "Release 1.6.0 · jscs-dev/node-jscs",
+            "url": "https://github.com/jscs-dev/node-jscs/releases/tag/v1.6.0",
+            "content": "コードスタイルチェックツールのjscs 1.6.0リリース。\nGoogleプリセットの改善やバグシュウセイ等\n",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "ReleaseNote"
+            ],
+            "date": "2014-08-30T08:46:46.343Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Ember.js - Ember 1.7.0 and 1.8 Beta Released",
+            "url": "http://emberjs.com/blog/2014/08/23/ember-1-7-0-released.html",
+            "content": "Ember 1.7.0 と 1.8 Betaリリース",
+            "tags": [
+                "JavaScript",
+                "library",
+                "ReleaseNote"
+            ],
+            "date": "2014-08-30T08:53:24.121Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Chromium Blog: Chrome 38 Beta: New primitives for the next-generation web",
+            "url": "http://blog.chromium.org/2014/08/chrome-38-beta-new-primitives-for-next.html",
+            "content": "Chrome 38βリリース。\npicture要素、Map/Set、for...of、Symbol、Math周りの追加。\nNetInfo API、 Screen Orientation AP、Encoding APIでバイナリのstreamをデコード出来るように",
+            "tags": [
+                "Chrome",
+                "ReleaseNote"
+            ],
+            "date": "2014-08-30T13:00:03.861Z",
+            "relatedLinks": [
+                {
+                    "title": "Collecting and Iterating, the ES6 Way - HTML5Rocks Updates",
+                    "url": "http://updates.html5rocks.com/2014/08/Collecting-and-Iterating-the-ES6-Way"
+                },
+                {
+                    "title": "Easier ArrayBuffer <-> String conversion with the Encoding API - HTML5Rocks Updates",
+                    "url": "http://updates.html5rocks.com/2014/08/Easier-ArrayBuffer---String-conversion-with-the-Encoding-API"
+                }
+            ]
+        },
+        {
+            "title": "Important Announcement Regarding YUI | Yahoo Engineering",
+            "url": "http://yahooeng.tumblr.com/post/96098168666/important-announcement-regarding-yui",
+            "content": "YUIは新規開発終了するというアナウンス。",
+            "tags": [
+                "YUI",
+                "ReleaseNote"
+            ],
+            "date": "2014-08-30T13:36:41.641Z",
+            "relatedLinks": [
+                {
+                    "title": "Yahoo stopping all new development of YUI | Hacker News",
+                    "url": "https://news.ycombinator.com/item?id=8243523"
+                }
+            ]
+        },
+        {
+            "title": "mathiasbynens/regexpu",
+            "url": "https://github.com/mathiasbynens/regexpu",
+            "content": "ES6の正規表現の`u`フラグをES5でも使えるように変換するtranspiler",
+            "tags": [
+                "JavaScript",
+                "正規表現",
+                "Tools"
+            ],
+            "date": "2014-08-30T14:30:44.654Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Unicode-aware regular expressions in ES6 · Mathias Bynens",
+            "url": "https://mathiasbynens.be/notes/es6-unicode-regex",
+            "content": "ES6で導入された正規表現の`u`フラグについての解説とES5でも使えるようにするTransppilerについて。\n正規表現でユニコード文字を正しく扱うためのフラグ",
+            "tags": [
+                "ECMAScript",
+                "JavaScript",
+                "正規表現"
+            ],
+            "date": "2014-08-30T14:33:18.617Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "JavaScript Memory Management Masterclass // Speaker Deck",
+            "url": "https://speakerdeck.com/addyosmani/javascript-memory-management-masterclass",
+            "content": "JavaScriptでのメモリリークとそもそも何故起きるのかについてのスライド。 \nDOM leakやV8のメモリ管理の方法、世代別GC、DevToolsを使っての見つけ方、Performance Toolsの使い方についてなどかなり詳しく紹介されている。",
+            "tags": [
+                "V8",
+                "JavaScript",
+                "browser",
+                "debug",
+                "スライド"
+            ],
+            "date": "2014-08-31T12:05:01.809Z",
+            "relatedLinks": [
+                {
+                    "title": "JavaScript Memory Management Masterclass のメモ | wIssue Note",
+                    "url": "http://efcl.wordpress.com/2014/08/31/javascript-memory-management-masterclass-%e3%81%ae%e3%83%a1%e3%83%a2/"
+                }
+            ]
+        },
+        {
+            "title": "A Gentle Browserify Walkthrough - Pony Foo",
+            "url": "http://blog.ponyfoo.com/2014/08/25/a-gentle-browserify-walkthrough",
+            "content": "Browserifyについての丁寧なチュートリアル。\nCommonJSとは何か、browserifyの基本的な使い方、利点としてnpmのモジュールが使える点やCJS以外のモジュールをbrowserify-shimで扱う事について等",
+            "tags": [
+                "JavaScript",
+                "browserify",
+                "tutorial"
+            ],
+            "date": "2014-08-31T12:32:45.692Z",
+            "relatedLinks": [
+                {
+                    "title": "Browserify All The Things // Speaker Deck",
+                    "url": "https://speakerdeck.com/bevacqua/browserify-all-the-things"
+                },
+                {
+                    "title": "substack/browserify-handbook",
+                    "url": "https://github.com/substack/browserify-handbook"
+                }
+            ]
+        },
+        {
+            "title": "Chartist - Simple responsive charts",
+            "url": "http://gionkunz.github.io/chartist-js/",
+            "content": "SVGベースのレスポンシブなグラフライブラリ。\nmedia queriesを使って指定",
+            "tags": [
+                "JavaScript",
+                "SVG",
+                "グラフ",
+                "library"
+            ],
+            "date": "2014-08-31T13:44:07.845Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Forward JS",
+            "url": "http://forwardjs.com/",
+            "content": "Forward JSの動画が公開されている",
+            "tags": [
+                "JavaScript",
+                "イベント",
+                "動画"
+            ],
+            "date": "2014-08-31T14:17:58.049Z",
+            "relatedLinks": []
+        }
+    ]
+}

@@ -16,5 +16,5 @@ var ractive = new Ractive({
 
 });
 ractive.observe('list', function (newValue, oldValue, keypath) {
-    console.log(keypath);
+    //store.save(newValue);
 });

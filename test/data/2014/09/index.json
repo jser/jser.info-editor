@@ -1,0 +1,864 @@
+{
+    "list": [
+        {
+            "title": "Journey from browserify to webpack — Medium",
+            "url": "https://medium.com/@tomchentw/why-webpack-is-awesome-9691044b6b8e",
+            "content": "webpackを使ったビルドについて。 browserifyとの比較\nwebpackがデフォルトで webpack-dev-serverや差分コンパイル、bower統合、js以外を読み込めるloaderを持ってる点について書かれている",
+            "tags": [
+                "browserify",
+                "JavaScript",
+                "Tools"
+            ],
+            "date": "2014-09-01T05:03:06.517Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Amazon: AngularJSリファレンス",
+            "url": "http://www.amazon.co.jp/dp/4844336681?tag=amazon0abac-22",
+            "content": "2014年9月5日発売\nAngularJSの脱初心者〜中級者向けの書籍\nhttp://zoetrope.hatenablog.jp/entry/2014/09/01/201056",
+            "tags": [
+                "AngularJS",
+                "book"
+            ],
+            "date": "2014-09-02T15:09:50.022Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Dev.Opera — Opera 24 released",
+            "url": "https://dev.opera.com/blog/opera-24/",
+            "content": "Opera 24リリース。\nWindowsでのフォントレンダリングの改善、CSSの`all`プロパティのサポート、`navigator.hardwareConcurrency`でCPUコア数の取得、Cryptography APIのサポート等",
+            "tags": [
+                "Opera",
+                "ReleaseNote"
+            ],
+            "date": "2014-09-02T15:17:33.376Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "An Introduction to WebDriver Using the JavaScript Bindings - Tuts+ Code Tutorial",
+            "url": "http://code.tutsplus.com/tutorials/an-introduction-to-webdriver-using-the-javascript-bindings--cms-21855",
+            "content": "WebDriverJSのバインディングについて。",
+            "tags": [
+                "Selenium",
+                "webdriver",
+                "node.js"
+            ],
+            "date": "2014-09-03T14:38:52.586Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Firefox — Notes (32.0) — Mozilla",
+            "url": "http://www.mozilla.org/en-US/firefox/32.0/releasenotes/",
+            "content": "Firefox 32リリース。\nposition:stickyがデフォルト有効に、imgのsrcset属性を試験サポート、`Array.from()`、Public Key Pinningの対応",
+            "tags": [
+                "firefox",
+                "ReleaseNote",
+                "セキュリティ"
+            ],
+            "date": "2014-09-03T14:54:18.553Z",
+            "relatedLinks": [
+                {
+                    "title": "Firefox 32 が正式リリース、position: sticky; や srcset 属性への対応、開発ツールの機能追加など | WWW WATCH",
+                    "url": "http://hyper-text.org/archives/2014/09/firefox_32_release.shtml"
+                },
+                {
+                    "title": "Firefox 32 for developers - Mozilla | MDN",
+                    "url": "https://developer.mozilla.org/ja/docs/Mozilla/Firefox/Releases/32"
+                }
+            ]
+        },
+        {
+            "title": "O'Reilly Japan - 実践 Selenium WebDriver",
+            "url": "http://www.oreilly.co.jp/books/9784873116952/",
+            "content": "2014年09月18日 発売\nSeleniumについての書籍。\nブラウザやiOS/Androidのテストについて扱う",
+            "tags": [
+                "Selenium",
+                "book",
+                "ios",
+                "Android"
+            ],
+            "date": "2014-09-04T06:43:56.752Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Socket.IO — Socket.IO 1.1.0",
+            "url": "http://socket.io/blog/socket-io-1-1-0/",
+            "content": "Socket.IO 1.1.0リリース。\nnamespaceの指定が`/`から始まるかどうかはどちらでも良くなった。バグ修正等",
+            "tags": [
+                "node.js",
+                "library",
+                "ReleaseNote"
+            ],
+            "date": "2014-09-05T00:35:49.513Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "多段SourceMapの対応方法とライブラリ | Web Scratch",
+            "url": "http://efcl.info/2014/09/03/multi-stage-sourcemap/",
+            "content": "多段SourceMapといわれてるものについての問題と、それをマッピングし直すことでその問題を解決するモジュールについて",
+            "tags": [
+                "sourcemap",
+                "JavaScript",
+                "library",
+                "node.js"
+            ],
+            "date": "2014-09-05T10:56:13.543Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "mathjs/HISTORY.md at v1.0.0 · josdejong/mathjs",
+            "url": "https://github.com/josdejong/mathjs/blob/v1.0.0/HISTORY.md",
+            "content": "既存のMathと互換性のある関数や数値演算、数式のパーサを持つライブラリであるmath.js 1.0.0リリース",
+            "tags": [
+                "JavaScript",
+                "library",
+                "ReleaseNote"
+            ],
+            "date": "2014-09-05T12:03:46.714Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Brackets 0.43 Release – Brackets Blog",
+            "url": "http://blog.brackets.io/2014/09/04/brackets-0-43-release/",
+            "content": "Brackets 0.43リリース。\nSass/Lessのサポート、検索UIの改善、シンタックスの言語切替ができるように",
+            "tags": [
+                "editor",
+                "ReleaseNote"
+            ],
+            "date": "2014-09-06T06:27:14.034Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "btwael/locallydb",
+            "url": "https://github.com/btwael/locallydb",
+            "content": "node、node-webkitで使えるNoSQLなデータベースライブラリ。\nJSONファイルベース",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "date": "2014-09-07T06:41:03.966Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Release SCSS-Lint 0.28.0 · causes/scss-lint",
+            "url": "https://github.com/causes/scss-lint/releases/tag/v0.28.0",
+            "content": "SCSS-Lint 0.28.0リリース。\nSass 3.4に対応",
+            "tags": [
+                "Sass",
+                "ReleaseNote"
+            ],
+            "date": "2014-09-07T07:19:30.196Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Release v0.9.0: Release 0.9.0 (2014-09-02) multi-stage sourcemaps · twada/power-assert",
+            "url": "https://github.com/twada/power-assert/releases/tag/v0.9.0",
+            "content": "power-assert 0.9.0リリース。\nAltJS等を使っている時に、元ファイルの正しいエラー行数を表示するために多段SourceMapに対応",
+            "tags": [
+                "JavaScript",
+                "library",
+                "testing",
+                "ReleaseNote"
+            ],
+            "date": "2014-09-07T07:21:18.141Z",
+            "relatedLinks": [
+                {
+                    "title": "多段SourceMapの対応方法とライブラリ | Web Scratch",
+                    "url": "http://efcl.info/2014/09/03/multi-stage-sourcemap/"
+                }
+            ]
+        },
+        {
+            "title": "ESLint 0.8.0 released - ESLint",
+            "url": "http://eslint.org/blog/2014/09/eslint-0.8.0-released/",
+            "content": "ESLint 0.8.0リリース。\nプラグインの仕組みがstableになって、作り方、テスト方法、命名ルール等が公開された。\nignorefileの`/**`の変更、パフォーマンスの改善等",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "ReleaseNote"
+            ],
+            "date": "2014-09-07T07:27:53.426Z",
+            "relatedLinks": [
+                {
+                    "title": "Working with Plugins",
+                    "url": "http://eslint.org/docs/developer-guide/working-with-plugins.html"
+                }
+            ]
+        },
+        {
+            "title": "RReverser/acorn-csp",
+            "url": "https://github.com/RReverser/acorn-csp",
+            "content": "acornのCSP対応版を生成するツール。\n`new Function`を使っているのを、\nAST変換を使ったインライン展開的な事をして対応してる",
+            "tags": [
+                "JavaScript",
+                "library",
+                "AST"
+            ],
+            "date": "2014-09-07T07:40:21.910Z",
+            "relatedLinks": [
+                {
+                    "title": "Acorn-cspのできた流れ - efcl’s blog",
+                    "url": "http://efcl.hatenablog.com/entry/2014/09/07/022914"
+                }
+            ]
+        },
+        {
+            "title": "zendesk/cross-storage",
+            "url": "https://github.com/zendesk/cross-storage",
+            "content": "postMessageを使ったクロスドメインでデータを共有出来るlocalStorageラッパライブラリ。\nES6 Promisesを使ったPromiseベースのAPIになってる",
+            "tags": [
+                "JavaScript",
+                "Promises",
+                "library"
+            ],
+            "date": "2014-09-07T08:00:17.213Z",
+            "relatedLinks": [
+                {
+                    "title": "DailyJS: Cross-Storage: Share Local Data Across Domains",
+                    "url": "http://dailyjs.com/2014/09/05/cross-storage/"
+                }
+            ]
+        },
+        {
+            "title": "A Fond Farewell to YUI | Blog | Sencha",
+            "url": "http://www.sencha.com/blog/a-fond-farewell-to-yui/",
+            "content": "Ext JS 1.0より前はYUIに依存してて、その後は3.0までアダプタ的なものを提供していた。\nまたエンタープライズウェブアプリの今後についてや、AngularJS等とExt JSがカバーしてる範囲の違いと用途への適正等の話",
+            "tags": [
+                "JavaScript",
+                "歴史",
+                "library"
+            ],
+            "date": "2014-09-07T08:13:40.428Z",
+            "relatedLinks": [
+                {
+                    "title": "YUI との別れを惜しむ | 株式会社ゼノフィ",
+                    "url": "https://www.xenophy.com/sencha-blog/11463"
+                },
+                {
+                    "title": "Enterprise Web Development: From Desktop to Mobile",
+                    "url": "http://enterprisewebbook.com/"
+                }
+            ]
+        },
+        {
+            "title": "Supersonic JavaScript // Speaker Deck",
+            "url": "https://speakerdeck.com/ariya/supersonic-javascript",
+            "content": "JavaScriptエンジンの最適化についてのスライド。\nコンストラクタ関数の最適化(Shape、Hidden class)を妨げない書き方、短絡評価、段階的なアプローチ、GCについてなど",
+            "tags": [
+                "JavaScript",
+                "performance",
+                "スライド"
+            ],
+            "date": "2014-09-07T08:36:08.408Z",
+            "relatedLinks": [
+                {
+                    "title": "JavaScript Memory Management Masterclass // Speaker Deck",
+                    "url": "https://speakerdeck.com/addyosmani/javascript-memory-management-masterclass"
+                }
+            ]
+        },
+        {
+            "title": "macbre/phantomas",
+            "url": "https://github.com/macbre/phantomas",
+            "content": "PhantomJSを使ったパフォーマンスメトリクス、モニタリングツール",
+            "tags": [
+                "JavaScript",
+                "browser",
+                "performance",
+                "Tools"
+            ],
+            "date": "2014-09-07T10:21:49.646Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Making the web “just work” with any input: Mouse, Touch, and Pointer Events - IEBlog - Site Home - MSDN Blogs",
+            "url": "http://blogs.msdn.com/b/ie/archive/2014/09/05/making-the-web-just-work-with-any-input.aspx",
+            "content": "IE 11のアップデートでTouch Eventsがサポートが入り、Mouser/Touch/Pointerの3つのモデルが存在する。\nそれらのモデルの比較とfeature detectによる互換性のない実装がよくみられる事について等",
+            "tags": [
+                "IE",
+                "browser",
+                "mobile"
+            ],
+            "date": "2014-09-07T15:09:41.981Z",
+            "relatedLinks": [
+                {
+                    "title": "The Mobile Web should just work for everyone - IEBlog - Site Home - MSDN Blogs",
+                    "url": "http://blogs.msdn.com/b/ie/archive/2014/07/31/the-mobile-web-should-just-work-for-everyone.aspx"
+                },
+                {
+                    "title": "IE11: 現在そして将来の Web に対応するタッチ ブラウジング - IEBlog 日本語 - Site Home - MSDN Blogs",
+                    "url": "http://blogs.msdn.com/b/ie_ja/archive/2013/08/06/ie11-touch-browsing-for-todays-web-and-beyond.aspx"
+                },
+                {
+                    "title": "Issue 162757 - chromium - Implement pointer events in Chrome behind experimental flag - An open-source project to help move the web forward. - Google Project Hosting",
+                    "url": "https://code.google.com/p/chromium/issues/detail?id=162757#c64"
+                }
+            ]
+        },
+        {
+            "title": "TimBeyer/html-to-vdom",
+            "url": "https://github.com/TimBeyer/html-to-vdom",
+            "content": "HTML文字列をVirtual DOM(vTree)に変換するライブラリ。\n",
+            "tags": [
+                "JavaScript",
+                "DOM",
+                "library"
+            ],
+            "date": "2014-09-08T00:45:35.568Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "From AngularJS to React: the isomorphic way",
+            "url": "http://blog.risingstack.com/from-angularjs-to-react-the-isomorphic-way/",
+            "content": "SEO的な視点からAngularJSからReactにした話。\nAngularではkoa-prerenderでプリレンダリングをしていた。\nReactを使うことでクライアントもサーバも同じコード(Isomorphic JavaScript)を使ってViewができるようになった",
+            "tags": [
+                "JavaScript",
+                "AngularJS"
+            ],
+            "date": "2014-09-08T10:42:55.860Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "コーディングガイド by @mdo",
+            "url": "http://kia-king.com/code-guide/",
+            "content": "http://codeguide.co/ の訳\nHTMLやCSSやJavaScriptそれぞれを書く時のルールを統一感を持つためのガイドライン",
+            "tags": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "翻訳"
+            ],
+            "date": "2014-09-08T10:48:16.973Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "pioneer.js - javascript integration testing",
+            "url": "http://pioneerjs.com/",
+            "content": "Cucumber的なDSLと、そのDSLに対応した処理をJavaScriptで書けるStep、どこをテストするのかのDOMをラップしたWIdgetsの3層構造のテストフレームワーク。\nWebDriverを使ってブラウザ自動テストが出来る",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "Selenium",
+                "webdriver",
+                "library"
+            ],
+            "date": "2014-09-08T12:25:18.674Z",
+            "relatedLinks": [
+                {
+                    "title": "Pioneerのお試しステップ - efcl’s blog",
+                    "url": "http://efcl.hatenablog.com/entry/2014/09/08/212101"
+                }
+            ]
+        },
+        {
+            "title": "ECMAScript 6 modules: the final syntax",
+            "url": "http://www.2ality.com/2014/09/es6-modules-final.html",
+            "content": "ES6 modulesの構文について。\n構文の仕様は固まり、CommonJSのような同期的な形とAMDのような非同期的な呼び出しどちらでも使える。\nES6 modulesの構文、使い方、default exportやSystem.importについて等まとまってる",
+            "tags": [
+                "JavaScript",
+                "ECMAScript"
+            ],
+            "date": "2014-09-08T12:29:39.517Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "GraftJS/jschan · GitHub",
+            "url": "https://github.com/GraftJS/jschan",
+            "content": "libchanのJavaScriptポート。\nネットワークを超えてChannel同士でやり取りをする。\nWebSocketsとSPDYをサポートしていて、msgpackを使う",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "date": "2014-09-10T00:50:34.223Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "thlorenz/v8-perf",
+            "url": "https://github.com/thlorenz/v8-perf",
+            "content": "V8のパフォーマンスに関するレポートや資料のまとめ。\nData type、コンパイラ、最適化、GC、メモリ、CPUプロファイリング。\nまたfast objectであるかどうかの確認方法やプロファイルの取り方などについて",
+            "tags": [
+                "Chrome",
+                "V8",
+                "performance",
+                "まとめ"
+            ],
+            "date": "2014-09-10T01:14:41.541Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "JavaScript: Novice to Ninja - O'Reilly Media",
+            "url": "http://shop.oreilly.com/product/9780992461225.do",
+            "content": "2014年10月 発売\n基礎から学ぶJavaScript",
+            "tags": [
+                "JavaScript",
+                "book"
+            ],
+            "date": "2014-09-10T07:55:20.233Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "davidmarkclements/decofun",
+            "url": "https://github.com/davidmarkclements/decofun",
+            "content": "無名関数を自動的にそのコンテキストに応じた名前を付けるデバッグツール。\n",
+            "tags": [
+                "JavaScript",
+                "debug",
+                "Tools"
+            ],
+            "date": "2014-09-11T04:56:31.740Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "srcset と sizes",
+            "url": "http://terkel.github.io/srcset-sizes/",
+            "content": "srcset と sizes 属性の入門の翻訳\nhttp://ericportis.com/posts/2014/srcset-sizes/",
+            "tags": [
+                "HTML",
+                "画像",
+                "CSS",
+                "翻訳"
+            ],
+            "date": "2014-09-11T05:04:29.476Z",
+            "relatedLinks": [
+                {
+                    "title": "Srcset and sizes の日本語訳 · terkel.jp",
+                    "url": "http://terkel.jp/archives/2014/09/srcset-sizes/"
+                }
+            ]
+        },
+        {
+            "title": "Polyfill service",
+            "url": "https://cdn.polyfill.io/v1/",
+            "content": "polyfillライブラリを配信してくれるCDNサービス。\nクエリでfeaturesやuaを指定してそれに対するpolyfillをまとめくれたものを配信してくれる",
+            "tags": [
+                "JavaScript",
+                "library"
+            ],
+            "date": "2014-09-11T07:25:20.053Z",
+            "relatedLinks": [
+                {
+                    "title": "Polyfills as a service | FT Labs",
+                    "url": "http://labs.ft.com/2014/09/polyfills-as-a-service/"
+                }
+            ]
+        },
+        {
+            "title": "9 anti-patterns for node.js teams",
+            "url": "http://www.slideshare.net/jeharrell/9-antipatterns-for-nodejs-teams",
+            "content": "node.jsにおける9つのアンチパターンについてのスライド http://efcl.hatenablog.com/entry/2014/09/11/212846",
+            "tags": [
+                "JavaScript",
+                "node.js",
+                "スライド"
+            ],
+            "date": "2014-09-11T12:33:40.210Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Talk talks_12C5ADD371A9A5D4 - Ember Fest!",
+            "url": "https://emberfest.eu/talks/talks_12C5ADD371A9A5D4",
+            "content": "JavaScriptベースのビルドツールであるBroccoliについての動画\nhttps://github.com/broccolijs/broccoli\nBroccoliがどのようなプロセスでファイルを処理するかについて話されてる",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "動画"
+            ],
+            "date": "2014-09-11T12:55:12.132Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "「for やめろ」またはイベントループと nextTick() - Block Rockin’ Codes",
+            "url": "http://jxck.hatenablog.com/entry/for-with-eventloop",
+            "content": "node.jsにおけるイベントループとブロッグについて。\nsetTimeout、process.nextTick、setImmediateの意味の違い。\nI/Oイベントとそれぞれの実行タイミングについて分かりやすく解説してる。",
+            "tags": [
+                "JavaScript",
+                "node.js"
+            ],
+            "date": "2014-09-12T13:53:03.710Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Speed Hall of Fame - The Chromium Projects",
+            "url": "http://www.chromium.org/developers/speed-hall-of-fame",
+            "content": "ChromiumやV8のパフォーマンスの最適化/向上のIssue(内容)とその結果についてまとめられてるページ",
+            "tags": [
+                "V8",
+                "Chrome",
+                "まとめ"
+            ],
+            "date": "2014-09-13T04:52:19.103Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "OSCON - React Architecture // Speaker Deck",
+            "url": "https://speakerdeck.com/vjeux/oscon-react-architecture",
+            "content": "Reactの歴史とReactのDOM Diffについてのスライド\nhttps://www.youtube.com/watch?v=eCf5CquV_Bw\nDOMのバージョン管理に擬えて、Virtual DOMのdiffの仕組みについて解説されてる",
+            "tags": [
+                "JavaScript",
+                "DOM",
+                "スライド"
+            ],
+            "date": "2014-09-13T07:10:36.439Z",
+            "relatedLinks": [
+                {
+                    "title": "JavaScript’s History and How it Led To ReactJS | The New Stack",
+                    "url": "http://thenewstack.io/javascripts-history-and-how-it-led-to-reactjs/"
+                }
+            ]
+        },
+        {
+            "title": "V8の最適化とIRHydraでの可視化とベンチマークについてのメモ | Web Scratch",
+            "url": "http://efcl.info/2014/09/13/v8-optimization-memo/",
+            "content": "V8のHidden Class等のJavaScriptの最適化やhot codeについて。\nIRHydra2を使った最適化されてない事の可視化や参考リソースについて。",
+            "tags": [
+                "JavaScript",
+                "V8",
+                "performance",
+                "Tools",
+                "まとめ"
+            ],
+            "date": "2014-09-13T15:36:30.779Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "DartLanguageSpecification_Japanese.pdf",
+            "url": "http://www.cresc.co.jp/tech/java/Google_Dart/DartLanguageSpecification_Japanese.pdf",
+            "content": "Dartの仕様書日本語訳\nECMA-408版",
+            "tags": [
+                "dart",
+                "spec",
+                "翻訳"
+            ],
+            "date": "2014-09-13T15:46:32.930Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "V8 Installation and d8 shell usage",
+            "url": "https://gist.github.com/kevincennis/0cd2138c78a07412ef21",
+            "content": "d8コマンドをインストールして、最適化/非最適化、プロファイリング、GCのトレース、hidden class等のチェック方法などについてまとまってるチュートリアル",
+            "tags": [
+                "V8",
+                "console",
+                "Tools",
+                "tutorial"
+            ],
+            "date": "2014-09-13T16:32:53.330Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Intern 2.1 released | Blog | SitePen",
+            "url": "http://www.sitepen.com/blog/2014/09/12/intern-2-1-released/",
+            "content": "Intern 2.1リリース。\nHTMLレポーター/JUnit XMLレポーターの追加。",
+            "tags": [
+                "JavaScript",
+                "testing",
+                "library",
+                "ReleaseNote"
+            ],
+            "date": "2014-09-14T06:32:42.455Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Asynchronous JavaScript & Promises",
+            "url": "http://www.innoarchitech.com/asynchronous-javascript-promises/",
+            "content": "JavaScriptの非同期処理、Promiseについての動画とスライド。\nPromiseとはどういうものかについて",
+            "tags": [
+                "JavaScript",
+                "Promises",
+                "スライド",
+                "動画"
+            ],
+            "date": "2014-09-14T07:48:31.251Z",
+            "relatedLinks": [
+                {
+                    "title": "Asynchronous JavaScript & Promises by Alex Castrounis",
+                    "url": "http://slides.com/alexcastrounis/async-js-promises#/"
+                }
+            ]
+        },
+        {
+            "title": "2014-09-09-performance-in-css-hikalab-yuya-saito.pdf • Droplr",
+            "url": "http://d.pr/f/sP4H",
+            "content": "CSSとパフォーマンスについてのスライド。CSSのスタイル変更がどのようなレンダリングツリーの変更/再描画を起こしてるか、それを計測する方法、回避する方法について詳しく書かれてる",
+            "tags": [
+                "CSS",
+                "browser",
+                "performance",
+                "スライド"
+            ],
+            "date": "2014-09-14T07:55:00.093Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "thlorenz/proxyquireify",
+            "url": "https://github.com/thlorenz/proxyquireify",
+            "content": "`require`をラップして読み込んだモジュールのメソッドのstubを行えるbrowserify plugin。\n変換によってDIが行われるので元モジュールに特殊な仕組みが必要ない",
+            "tags": [
+                "browserify",
+                "plugin",
+                "testing",
+                "library"
+            ],
+            "date": "2014-09-14T08:25:35.055Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "ES6 right now",
+            "url": "http://johnkpaul.github.io/presentations/jqcon/2014/es6-now/#/",
+            "content": "ES6の動かせるサンプルと共に機能紹介と今スグ使う設定についてのスライド\ntraceur(+grunt/gulp/broccoli/browserify)やes6-shimの紹介",
+            "tags": [
+                "ECMAScript",
+                "JavaScript",
+                "スライド"
+            ],
+            "date": "2014-09-14T09:10:04.256Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Firefox Add-on Enables Web Development Across Browsers and Devices ✩ Mozilla Hacks – the Web developer blog",
+            "url": "https://hacks.mozilla.org/2014/09/firefox-tools-adapter/",
+            "content": "Firefoxの開発者ツールを使ってChromeやSafariで表示してるページをデバッグするアダプタのアドオン。\nremotedebug.org と似ているが、共有のプロトコルの提供ではなく、Firefoxのプロトコルをベースとしてる",
+            "tags": [
+                "firefox",
+                "debug",
+                "Chrome",
+                "addon"
+            ],
+            "date": "2014-09-14T09:22:27.342Z",
+            "relatedLinks": [
+                {
+                    "title": "Firefox Tools Adapter - Firefox Developer Tools | MDN",
+                    "url": "https://developer.mozilla.org/en-US/docs/Tools/Firefox_Tools_Adapter"
+                }
+            ]
+        },
+        {
+            "title": "ブラウザ内で安全に文字列からDOMを組み立てるためのRickDOMというライブラリを書いた - 葉っぱ日記",
+            "url": "http://d.hatena.ne.jp/hasegawayosuke/20140912/p1",
+            "content": "DOMParserやcreateHTMLDocumentを使って文字列から安全にDOMを組み立てるライブラリ",
+            "tags": [
+                "JavaScript",
+                "DOM",
+                "library"
+            ],
+            "date": "2014-09-14T09:26:27.799Z",
+            "relatedLinks": [
+                {
+                    "title": "hasegawayosuke/rickdom",
+                    "url": "https://github.com/hasegawayosuke/rickdom"
+                }
+            ]
+        },
+        {
+            "title": "Building high quality services at Uber",
+            "url": "http://raynos.github.io/nodeconfeu2014-talk/#/",
+            "content": "Uber社のnode.jsを使ったプロダクションを運用するにあたってのスライド。\nログ、モニター、設定の管理、例外のログ、プロファイル、初期設定のscaffolding等のツールについて。",
+            "tags": [
+                "JavaScript",
+                "node.js",
+                "スライド"
+            ],
+            "date": "2014-09-14T09:30:21.416Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Intro to Broccoli",
+            "url": "http://aexmachina.info/assets/talks/intro-to-broccoli/#1",
+            "content": "ビルドツールであるBroccoliについてのスライド。 Railsで言えばBroccoliはasset pipelineで、GruntやGulpはrakeに当たるツール。\nビルドに焦点をおいているという特徴がある",
+            "tags": [
+                "JavaScript",
+                "Tools",
+                "スライド"
+            ],
+            "date": "2014-09-14T10:14:22.163Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "uupaa/WMCache.js",
+            "url": "https://github.com/uupaa/WMCache.js",
+            "content": "FileSystem, IndexedDB, Quota Management APIを使って100MB超えのテンポラリなストレージを管理するライブラリ",
+            "tags": [
+                "JavaScript",
+                "library",
+                "Chrome",
+                "safari"
+            ],
+            "date": "2014-09-14T10:42:51.649Z",
+            "relatedLinks": [
+                {
+                    "title": "WMCache · uupaa/WMCache.js Wiki",
+                    "url": "https://github.com/uupaa/WMCache.js/wiki/WMCache"
+                }
+            ]
+        },
+        {
+            "title": "Release 3.1 “Satyameva Jayate” · postcss/autoprefixer",
+            "url": "https://github.com/postcss/autoprefixer/releases/tag/3.1.0",
+            "content": "autoprefixer 3.1リリース\n",
+            "tags": [
+                "CSS",
+                "Tools",
+                "ReleaseNote"
+            ],
+            "date": "2014-09-15T08:23:45.656Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "hello.js - Javascript API for OAuth2 authentication and REST services",
+            "url": "http://adodson.com/hello.js/",
+            "content": "OAuth 2対応のアプリの認証やAPIを叩く機能を持ったライブラリ。\nhttps://auth-server.herokuapp.com/ という認証のサーバを使っていて、クライアントサイトを書くだけでGitHubやFacebook等のAPIを利用できる",
+            "tags": [
+                "JavaScript",
+                "OAuth",
+                "library"
+            ],
+            "date": "2014-09-15T11:57:34.119Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "BlackDice/lill",
+            "url": "https://github.com/BlackDice/lill",
+            "content": "es6-symbolを使った linked-listの実装ライブラリ",
+            "tags": [
+                "JavaScript",
+                "library",
+                "node.js"
+            ],
+            "date": "2014-09-15T12:02:35.343Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Integrating D3.js visualizations in a React app - Nicolas Hery",
+            "url": "http://nicolashery.com/integrating-d3js-visualizations-in-a-react-app/",
+            "content": "D3.jsのデータ・ドリブンのデータ更新とReactのVirtual DOMを組み合わせた話",
+            "tags": [
+                "d3.js",
+                "DOM"
+            ],
+            "date": "2014-09-15T12:11:50.844Z",
+            "relatedLinks": [
+                {
+                    "title": "D3.js の Data-Driven な DOM 操作がおもしろい - てっく煮ブログ",
+                    "url": "http://tech.nitoyon.com/ja/blog/2013/10/24/d3js/"
+                }
+            ]
+        },
+        {
+            "title": "BSidesLA Managing Content Security Policy // Speaker Deck",
+            "url": "https://speakerdeck.com/oreoshake/bsidesla-managing-content-security-policy",
+            "content": "CSPについてのスライド。\nCSPとは何か、どうやって適応するか、どうやって管理するか。\nCSP Lv2のhashについてやCSPレポート解析と http://caspr.io/ ついて",
+            "tags": [
+                "セキュリティ",
+                "CSP",
+                "browser",
+                "スライド"
+            ],
+            "date": "2014-09-15T12:19:44.105Z",
+            "relatedLinks": [
+                {
+                    "title": "Caspr",
+                    "url": "http://caspr.io/#/"
+                }
+            ]
+        },
+        {
+            "title": "JavaScript Promiseを使うウェブの仕様を調べてみた | Web Scratch",
+            "url": "http://efcl.info/2014/09/16/promises-spec-ref-list/",
+            "content": "Promisesの仕様を前提にしてる仕様の一覧。また、仕様をどうやって調べるかについて。W3CやWHATWGの仕様をまとめてダウンロードして検索する方法について書かれてる",
+            "tags": [
+                "JavaScript",
+                "Promises",
+                "spec",
+                "検索"
+            ],
+            "date": "2014-09-16T11:24:58.866Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "CORS для тестирования и для жизни. Константин Якушев. MoscowJS 14",
+            "url": "http://www.slideshare.net/moscowjs/cors-moscowjs-14",
+            "content": "CORSのHTTPヘッダの設定と動作について分かりやすくまとめられてる。 \n指定する値の書き方についてが分かりやすい\nCORS in Actionの人。\n",
+            "tags": [
+                "XHR",
+                "スライド"
+            ],
+            "date": "2014-09-17T00:45:39.413Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Node v0.10.32 (Stable)",
+            "url": "http://blog.nodejs.org/2014/09/16/node-v0-10-32-stable/",
+            "content": "Node v0.10.32 リリース。\n",
+            "tags": [
+                "node.js",
+                "ReleaseNote"
+            ],
+            "date": "2014-09-17T00:47:38.303Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "CSSセレクターマッチングのコスト - Unreviewed",
+            "url": "http://takenspc.hatenablog.com/entry/2014/09/16/152157",
+            "content": "CSSセレクタは要素とセレクタの数だけ判定を行う回数が増えるため、そのコストを減らすアプローチについて。\nまた、CSSセレクタのマッチ判定の手順について結合子別に詳しく解説してる。\n",
+            "tags": [
+                "CSS",
+                "webkit"
+            ],
+            "date": "2014-09-17T04:58:00.409Z",
+            "relatedLinks": [
+                {
+                    "title": "WebKit CSS JIT Internals - Constellation Scorpius",
+                    "url": "http://constellation.github.io/blog/2014/07/14/webkit-css-jit-internals/"
+                }
+            ]
+        },
+        {
+            "title": "Node.jsエンジニアなら2014年内に知っておきたいPromise入門 | Tokyo Otaku Mode Tech Blog",
+            "url": "http://blog.otakumode.com/2014/09/17/nodejs-promise/",
+            "content": "JavaScript Promiseの基本的な使い方、async.jsを使っていた場合にそれをPromiseに書き換える実装方法について。\nPromiseについてよくまとまってるチュートリアル",
+            "tags": [
+                "JavaScript",
+                "node.js",
+                "Promises",
+                "tutorial"
+            ],
+            "date": "2014-09-17T06:25:09.580Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "Componentization for Reality",
+            "url": "http://ja.slideshare.net/ygoto3q/componentization-for-reality",
+            "content": "コンポーネントベースで考えるウェブ開発についてスライド。\nディレクトリ単位だとバラけてしまうのでコンポーネント単位でまとめる。\nジェネレータ、webpack、insertCSS、Angular",
+            "tags": [
+                "JavaScript",
+                "スライド"
+            ],
+            "date": "2014-09-17T14:08:10.953Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "A Quick Introduction to BrowserSync - Tuts+ Web Design Tutorial",
+            "url": "http://webdesign.tutsplus.com/tutorials/a-quick-introduction-to-browsersync--cms-22135",
+            "content": "BrowserSyncについて紹介するスクリーンキャスト",
+            "tags": [
+                "browser",
+                "動画",
+                "Tools"
+            ],
+            "date": "2014-09-18T12:05:57.597Z",
+            "relatedLinks": []
+        },
+        {
+            "title": "WebIDE、ストレージインスペクタ、jQuery イベント、iframe 切り替えなど – Firefox 開発ツール エピソード 34 | Mozilla Developer Street (modest)",
+            "url": "https://dev.mozilla.jp/2014/09/webide-storage-inspector-jquery-events-iframe-switcher-more-firefox-developer-tools-episode-34/",
+            "content": "Firefox 34 で追加されてる開発ツールの機能について",
+            "tags": [
+                "firefox",
+                "debug",
+                "Tools"
+            ],
+            "date": "2014-09-18T14:53:24.222Z",
+            "relatedLinks": []
+        }
+    ]
+}
