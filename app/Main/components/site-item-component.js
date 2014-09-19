@@ -14,7 +14,6 @@ module.exports = Ractive.extend({
         }
 
         this.on('edit', function (event) {
-            console.log(ractive);
             ractive.set("isEditing", true);
             var placeholder = ractive.find(".placeholder-editor");
             var myCodeMirror = CodeMirror.fromTextArea(placeholder, {
@@ -33,6 +32,10 @@ module.exports = Ractive.extend({
                 }
             });
         });
+    },
+
+    components: {
+        "relatedItem": require("./site-item-related-component")
     },
     template: require("fs").readFileSync(__dirname + "/site-item.hbs", "utf-8"),
     css: require("fs").readFileSync(__dirname + "/site-item.css", "utf-8")

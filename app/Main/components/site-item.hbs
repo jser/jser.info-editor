@@ -6,8 +6,10 @@
     <textarea class="placeholder-editor hidden" title="hidden-textarea"></textarea>
 
     <ul>
-    {{#relatedLinks}}
-        <li>{{title}} - {{url}}</li>
-    {{/relatedLinks}}
+        {{#relatedLinks}}
+            <li>
+                <relatedItem value="relatedLinks" ></relatedItem>
+            </li>
+        {{/relatedLinks}}
     </ul>
 </div>
