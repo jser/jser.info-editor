@@ -10,7 +10,7 @@ var ractive = new Ractive({
     el: '#js-sidebar',
     template: require("fs").readFileSync(__dirname + "/Views/main-sidebar.hbs", "utf-8"),
     components: {
-        "sidebarItem": require("./components/main-sidebar-component")
+        "sidebarItem": require("./components/site-item-component")
     },
     data: store.loadAtDate(new Date)
 

@@ -34,6 +34,6 @@ module.exports = Ractive.extend({
             });
         });
     },
-    template: require("fs").readFileSync(__dirname + "/main-sidebar-item.hbs", "utf-8"),
-    css: require("fs").readFileSync(__dirname + "/main-sidebar-item.css", "utf-8")
+    template: require("fs").readFileSync(__dirname + "/site-item.hbs", "utf-8"),
+    css: require("fs").readFileSync(__dirname + "/site-item.css", "utf-8")
 });
