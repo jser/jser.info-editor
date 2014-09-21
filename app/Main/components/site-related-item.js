@@ -2,6 +2,9 @@
 // 関連するサイトのコンポーネント
 "use strict";
 var Ractive = require("ractive");
+var events = {
+    "removeRelatedItem": "removeRelatedItem"
+};
 module.exports = Ractive.extend({
     data: {
         editingURL: null
@@ -22,7 +25,8 @@ module.exports = Ractive.extend({
             try {
                 result = JSON.parse(node.value);
             } catch (e) {
-                global.alert("Please input object data");
+                ractive.fire(events.removeRelatedItem, ractive);
+                return window.alert("Please input object data");
             }
             ractive.set("title", result.title);
             ractive.set("url", result.url);
@@ -34,5 +38,7 @@ module.exports = Ractive.extend({
             }
         });
     },
-    template: require("fs").readFileSync(__dirname + "/site-item-related.hbs", "utf-8")
+    template: require("fs").readFileSync(__dirname + "/site-related-item.hbs", "utf-8")
 });
+
+module.exports.events = events;

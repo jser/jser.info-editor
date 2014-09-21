@@ -2,17 +2,29 @@
 var Ractive = require("ractive");
 var CodeMirror = require("codemirror");
 require('codemirror/mode/markdown/markdown');
+var relatedItem = require("./site-related-item");
+var newRelatedItem = require("./site-new-related-item-button");
 module.exports = Ractive.extend({
     data: {
         isEditing: false
     },
     init: function () {
         var ractive = this;
+
         function saveEditContent(text) {
             ractive.set("content", text);
             ractive.set("isEditing", false);
         }
 
+        this.on("relatedItem." + relatedItem.events.removeRelatedItem,function(ra){
+            console.log(ra);
+        });
+        this.on("newRelatedItem." + newRelatedItem.events.insertNewRelatedItem, function (event) {
+            ractive.push("relatedLinks", {
+                "title": "dummy",
+                "url": "http://dummy"
+            });
+        });
         this.on('edit', function (event) {
             ractive.set("isEditing", true);
             var placeholder = ractive.find(".placeholder-editor");
@@ -35,7 +47,8 @@ module.exports = Ractive.extend({
     },
 
     components: {
-        "relatedItem": require("./site-item-related-component")
+        "relatedItem": relatedItem,
+        "newRelatedItem": newRelatedItem
     },
     template: require("fs").readFileSync(__dirname + "/site-item.hbs", "utf-8"),
     css: require("fs").readFileSync(__dirname + "/site-item.css", "utf-8")
