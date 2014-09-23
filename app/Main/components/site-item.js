@@ -16,7 +16,7 @@ module.exports = Ractive.extend({
             ractive.set("isEditing", false);
         }
 
-        this.on("relatedItem." + relatedItem.events.removeRelatedItem,function(ra){
+        this.on("relatedItem." + relatedItem.events.removeRelatedItem, function (ra) {
             console.log(ra);
         });
         this.on("newRelatedItem." + newRelatedItem.events.insertNewRelatedItem, function (event) {
@@ -50,6 +50,6 @@ module.exports = Ractive.extend({
         "relatedItem": relatedItem,
         "newRelatedItem": newRelatedItem
     },
-    template: require("fs").readFileSync(__dirname + "/site-item.hbs", "utf-8"),
-    css: require("fs").readFileSync(__dirname + "/site-item.css", "utf-8")
+    template: require("fs").readFileSync(__filename + ".hbs", "utf-8"),
+    css: require("fs").readFileSync(__filename + ".css", "utf-8")
 });
