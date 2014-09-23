@@ -9,14 +9,17 @@ module.exports = Ractive.extend({
     data: {
         editingURL: null
     },
+    editItem: function (context) {
+        this.set("editingURL", context.url);
+        // input
+        var input = this.find(".related-link-edit");
+        input.value = JSON.stringify(context);
+    },
     init: function () {
         var ractive = this;
         this.on("edit", function (event) {
             event.original.preventDefault();
-            ractive.set("editingURL", event.context.url);
-            // input
-            var input = ractive.find(".related-link-edit");
-            input.value = JSON.stringify(event.context);
+            this.editItem(event.context);
         });
         function leaveEdit(node) {
             ractive.set("editingURL", null);
@@ -25,7 +28,7 @@ module.exports = Ractive.extend({
             try {
                 result = JSON.parse(node.value);
             } catch (e) {
-                ractive.fire(events.removeRelatedItem, ractive);
+                ractive.fire(events.removeRelatedItem, node);
                 return window.alert("Please input object data");
             }
             ractive.set("title", result.title);

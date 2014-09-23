@@ -16,13 +16,16 @@ module.exports = Ractive.extend({
             ractive.set("isEditing", false);
         }
 
-        this.on("relatedItem." + relatedItem.events.removeRelatedItem, function (ra) {
-            console.log(ra);
+        this.on("relatedItem." + relatedItem.events.removeRelatedItem, function (node) {
+            console.log(node);
         });
         this.on("newRelatedItem." + newRelatedItem.events.insertNewRelatedItem, function (event) {
             ractive.push("relatedLinks", {
                 "title": "dummy",
                 "url": "http://dummy"
+            }).then(function () {
+                var addedItem = ractive.findAllComponents("relatedItem").pop();
+                addedItem.editItem(addedItem.data);
             });
         });
         this.on('edit', function (event) {
