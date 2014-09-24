@@ -3,7 +3,7 @@
         {
             "title": "Journey from browserify to webpack — Medium",
             "url": "https://medium.com/@tomchentw/why-webpack-is-awesome-9691044b6b8e",
-            "content": "webpackを使ったビルドについて。 browserifyとの比較\nwebpackがデフォルトで webpack-dev-serverや差分コンパイル、bower統合、js以外を読み込めるloaderを持ってる点について書かれている",
+            "content": "webpackを使ったビルドについて。 browserifyとの比較\nwebpackがデフォルトで webpack-dev-serverや差分コンパイル、bower統合、js以外を読み込めるloaderを持ってる点について書かれてい",
             "tags": [
                 "browserify",
                 "JavaScript",
@@ -14,38 +14,6 @@
                 {
                     "title": "WebKit CSS JIT Internals - Constellats",
                     "url": "http://constellation.github.io/blog/2014/07/14/webkit-css-jit-internals/"
-                },
-                {
-                    "title": "dummy",
-                    "url": "http://dummy"
-                },
-                {
-                    "title": "dummy",
-                    "url": "http://dummy"
-                },
-                {
-                    "title": "dummy",
-                    "url": "http://dummy"
-                },
-                {
-                    "title": "dummy",
-                    "url": "http://dummy"
-                },
-                {
-                    "title": "dummy",
-                    "url": "http://dummy"
-                },
-                {
-                    "title": "dummy",
-                    "url": "http://dummy"
-                },
-                {
-                    "title": "dummy",
-                    "url": "http://dummy"
-                },
-                {
-                    "title": "dummy",
-                    "url": "http://dummy"
                 }
             ]
         },

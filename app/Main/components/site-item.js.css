@@ -1,5 +1,7 @@
-.jser-content[contenteditable="true"] {
-  border: medium solid #ff00ff; }
+.CodeMirror {
+  font-size: 16px;
+  border: medium solid #ff00ff;
+  max-height: 5em; }
 
 .hidden {
   display: none; }
