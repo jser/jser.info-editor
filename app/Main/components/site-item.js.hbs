@@ -6,11 +6,11 @@
     <textarea class="placeholder-editor hidden" title="hidden-textarea"></textarea>
 
     <ul>
-        {{#relatedLinks}}
+        {{#each relatedLinks:i}}
             <li>
-                <relatedItem></relatedItem>
+                <relatedItem index="{{i}}"></relatedItem>
             </li>
-        {{/relatedLinks}}
+        {{/each}}
         <li>
             <newRelatedItem></newRelatedItem>
         </li>

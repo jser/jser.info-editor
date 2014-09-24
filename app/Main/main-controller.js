@@ -31,7 +31,8 @@ var ractive = new Ractive({
         ]
     }
      */
-    data: store.loadAtDate(new Date)
+    data: store.loadAtDate(new Date),
+    debug: true
 });
 ractive.observe('list', function (newValue, oldValue, keypath) {
     store.save({

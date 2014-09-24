@@ -16,8 +16,8 @@ module.exports = Ractive.extend({
             ractive.set("isEditing", false);
         }
 
-        this.on("relatedItem." + relatedItem.events.removeRelatedItem, function (node) {
-            console.log(node);
+        this.on("relatedItem." + relatedItem.events.removeRelatedItem, function (index) {
+            ractive.splice("relatedLinks", index, 1);
         });
         this.on("newRelatedItem." + newRelatedItem.events.insertNewRelatedItem, function (event) {
             ractive.push("relatedLinks", {

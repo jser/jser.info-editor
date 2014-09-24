@@ -28,8 +28,8 @@ module.exports = Ractive.extend({
             try {
                 result = JSON.parse(node.value);
             } catch (e) {
-                ractive.fire(events.removeRelatedItem, node);
-                return window.alert("Please input object data");
+                ractive.fire(events.removeRelatedItem, ractive.data.index);
+                return;
             }
             ractive.set("title", result.title);
             ractive.set("url", result.url);
