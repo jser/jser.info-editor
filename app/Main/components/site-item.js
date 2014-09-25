@@ -12,8 +12,10 @@ module.exports = Ractive.extend({
         var ractive = this;
 
         function saveEditContent(text) {
-            ractive.set("content", text);
-            ractive.set("isEditing", false);
+            ractive.set({
+                "content": text,
+                "isEditing": false
+            });
         }
 
         this.on("relatedItem." + relatedItem.events.removeRelatedItem, function (index) {

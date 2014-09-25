@@ -856,7 +856,7 @@
         {
             "title": "WebIDE、ストレージインスペクタ、jQuery イベント、iframe 切り替えなど – Firefox 開発ツール エピソード 34 | Mozilla Developer Street (modest)",
             "url": "https://dev.mozilla.jp/2014/09/webide-storage-inspector-jquery-events-iframe-switcher-more-firefox-developer-tools-episode-34/",
-            "content": "Firefox 34 の新機能にこれはどうっだろ?",
+            "content": "Firefox 34 の新機能にこれはどうっだろ?\n一度に",
             "tags": [
                 "firefox",
                 "debug",
