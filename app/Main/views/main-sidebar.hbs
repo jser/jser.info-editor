@@ -1,6 +1,6 @@
 <div>
     <ul>
-        {{#each list}}
+        {{#each sort(list, sortColumn)}}
             <li><sidebarItem value="{{.}}"/></li>
         {{/each}}
     </ul>

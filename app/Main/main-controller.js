@@ -31,7 +31,16 @@ var ractive = new Ractive({
         ]
     }
      */
-    data: store.loadAtDate(new Date),
+    data: {
+        list: store.loadAtDate(new Date).list,
+        sortColumn: "date",
+        sort: function (array, column) {
+            array = array.slice();
+            return array.sort(function (a, b) {
+                return a[column] < b[column] ? 1 : -1;
+            });
+        }
+    },
     debug: true
 });
 ractive.observe('list', function (newValue, oldValue, keypath) {
