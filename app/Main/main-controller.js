@@ -4,6 +4,7 @@
  */
 "use strict";
 
+var _ = require("lodash");
 var store = require("./models/index-store");
 var Ractive = require("ractive");
 var ractive = new Ractive({
@@ -32,18 +33,38 @@ var ractive = new Ractive({
     }
      */
     data: {
-        list: store.loadAtDate(new Date).list,
-        sortColumn: "date",
-        sort: function (array, column) {
-            array = array.slice();
-            return array.sort(function (a, b) {
+        list: store.loadAtDate(new Date).list
+    },
+    computed: {
+        sortedList: function () {
+            var column = "date";
+            var list = this.get('list').slice();
+            return list.sort(function (a, b) {
                 return a[column] < b[column] ? 1 : -1;
             });
         }
     },
     debug: true
 });
+ractive.on("update", function () {
+
+});
+ractive.observe('sortedList.*', function (newValue, oldValue, keypath) {
+    console.log(keypath);
+    if (oldValue == null) {
+        return;
+    }
+    var list = ractive.get("list");
+    var index = list.indexOf(oldValue);
+    list[index] = newValue;
+    var listKeyPath = ["list", index].join(".");
+    ractive.update(listKeyPath);
+});
 ractive.observe('list', function (newValue, oldValue, keypath) {
+    if (oldValue == null) {
+        return;
+    }
+    console.log("Save!");
     store.save({
         "list": newValue
     });
