@@ -863,7 +863,12 @@
                 "Tools"
             ],
             "date": "2014-09-18T14:53:24.222Z",
-            "relatedLinks": []
+            "relatedLinks": [
+                {
+                    "title": "dummy",
+                    "url": "http://test"
+                }
+            ]
         }
     ]
 }

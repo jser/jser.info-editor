@@ -13,7 +13,10 @@ module.exports = Ractive.extend({
         this.set("editingURL", context.url);
         // input
         var input = this.find(".related-link-edit");
-        input.value = JSON.stringify(context);
+        input.value = JSON.stringify({
+            title: context.title,
+            url: context.url
+        });
     },
     init: function () {
         var ractive = this;

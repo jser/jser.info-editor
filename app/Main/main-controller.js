@@ -50,7 +50,6 @@ ractive.on("update", function () {
 
 });
 ractive.observe('sortedList.*', function (newValue, oldValue, keypath) {
-    console.log(keypath);
     if (oldValue == null) {
         return;
     }
