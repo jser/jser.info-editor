@@ -4,3 +4,4 @@
  */
 "use strict";
 window.require("./main-controller");
+window.require("./commit-controller");
