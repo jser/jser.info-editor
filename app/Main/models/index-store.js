@@ -6,15 +6,15 @@
 var fs = require("fs");
 var findWithDate = require("./index-finder");
 // index.jsonを保持する
-var currentIndexPath = [];
 var store = {};
+store.currentIndexPath = "";
 store.loadAtDate = function (monthDate) {
-    currentIndexPath = findWithDate(monthDate);
-    return require(currentIndexPath);
+    this.currentIndexPath = findWithDate(monthDate);
+    return require(this.currentIndexPath);
 };
 store.save = function (indexObject) {
     var serialized = JSON.stringify(indexObject, null, 4);
-    fs.writeFileSync(currentIndexPath, serialized);
+    fs.writeFileSync(this.currentIndexPath, serialized);
 };
 
 module.exports = store;
