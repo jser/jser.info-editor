@@ -1,10 +1,17 @@
 "use strict";
 var path = require("path");
 var store = require("./models/index-store");
-function commit(message) {
-
-}
+var gitCommit = require("../local/git-commit");
 var commitButton = document.getElementById("js-commit-button");
+var map = require('map-stream');
+var log = function (file, cb) {
+    if (file instanceof Error) {
+        return cb(file);
+    }
+    new Notification("Commit!");
+    cb(null, file);
+};
+
 commitButton.addEventListener("click", function () {
     var indexPath = store.currentIndexPath;
     var fileName = path.dirname(indexPath);
@@ -15,5 +22,6 @@ commitButton.addEventListener("click", function () {
         name: path.basename(indexPath)
     };
     var commitMessage = "Update: " + fileAttr.year + "/" + fileAttr.month + "/" + fileAttr.name;
-
+    gitCommit(indexPath, commitMessage)
+        .pipe(map(log));
 });
