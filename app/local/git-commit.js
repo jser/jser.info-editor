@@ -5,16 +5,20 @@
 "use strict";
 var fs = require('vinyl-fs');
 var git = require('gulp-git');
+var jser = require("../Config/jser-config");
 var map = require('map-stream');
 var log = function (file, cb) {
     console.log(file.path);
     cb(null, file);
 };
 function gitCommit(glob, commitMessage) {
+    var cwd = {
+        cwd: jser.jserDirPath
+    };
     return fs.src(glob)
         .pipe(map(log))
-        .pipe(git.add())
-        .pipe(git.commit(commitMessage))
+        .pipe(git.add(cwd))
+        .pipe(git.commit(commitMessage, cwd))
         .on('error', function (e) {
             console.log(e)
         });
