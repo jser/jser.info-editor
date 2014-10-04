@@ -44,7 +44,7 @@ module.exports = Ractive.extend({
             }
         });
     },
-    template: require("fs").readFileSync(__filename + ".hbs", "utf-8")
+    template: require("load-template")(__filename + ".hbs")
 });
 
 module.exports.events = events;

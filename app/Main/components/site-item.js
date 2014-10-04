@@ -55,6 +55,6 @@ module.exports = Ractive.extend({
         "relatedItem": relatedItem,
         "newRelatedItem": newRelatedItem
     },
-    template: require("fs").readFileSync(__filename + ".hbs", "utf-8"),
-    css: require("fs").readFileSync(__filename + ".css", "utf-8")
+    template: require("load-template")(__filename + ".hbs"),
+    css: require("load-template")(__filename + ".css")
 });
