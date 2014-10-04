@@ -18,9 +18,6 @@ function gitCommit(glob, commitMessage) {
     return fs.src(glob)
         .pipe(map(log))
         .pipe(git.add(cwd))
-        .pipe(git.commit(commitMessage, cwd))
-        .on('error', function (e) {
-            console.log(e)
-        });
+        .pipe(git.commit(commitMessage, cwd));
 }
 module.exports = gitCommit;
