@@ -37,7 +37,8 @@ module.exports = Ractive.extend({
                 mode: "markdown",
                 lineWrapping: true
             });
-            myCodeMirror.setValue(event.context.content);
+            var originalContent = event.context.content;
+            myCodeMirror.setValue(originalContent);
             myCodeMirror.addKeyMap({
                 "Ctrl-Enter": function (cm) {
                     saveEditContent(cm.getValue());
@@ -45,6 +46,10 @@ module.exports = Ractive.extend({
                 },
                 "Cmd-Enter": function (cm) {
                     saveEditContent(cm.getValue());
+                    cm.toTextArea();
+                },
+                "Esc": function (cm) {
+                    saveEditContent(originalContent);
                     cm.toTextArea();
                 }
             });
