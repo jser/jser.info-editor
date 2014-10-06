@@ -3,4 +3,5 @@
  * LICENSE : MIT
  */
 "use strict";
-window.require("./config-controller");
+var path = require('path');
+window.require(path.join(process.cwd(), "app/Config/config-controller"));

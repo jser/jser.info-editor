@@ -3,5 +3,5 @@
  * LICENSE : MIT
  */
 "use strict";
-window.require("./main-controller");
+window.require("./main-controller")();
 window.require("./commit-controller");

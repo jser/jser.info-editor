@@ -6,10 +6,10 @@ var jserStore = Store("jser");
 Object.defineProperties(config, {
     "jserDirPath": {
         get: function () {
-            return jserStore.get("dir-path");
+            return localStorage.getItem("dir-path");
         },
         set: function (value) {
-            jserStore.set("dir-path", value);
+            localStorage.setItem("dir-path", value);
         }
     }
 });
