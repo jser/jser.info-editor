@@ -23,14 +23,15 @@
     "codemirror": "^4.5.0",
     "gulp": "^3.8.8",
     "gulp-git": "^0.5.0",
+    "load-template": "./lib/load-template",
     "local-store": "^0.2.0",
     "lodash": "^2.4.1",
     "map-stream": "^0.1.0",
+    "node-webkit-notification": "file:lib/node-webkit-notification",
     "ractive": "^0.5.7",
     "traceur": "0.0.62",
     "vinyl-fs": "^0.3.7",
-    "vue": "^0.10.6",
-    "load-template": "./lib/load-template"
+    "vue": "^0.10.6"
   },
   "devDependencies": {
     "es6ify": "^1.3.0"

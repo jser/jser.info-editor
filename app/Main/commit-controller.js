@@ -3,7 +3,7 @@ var path = require("path");
 var store = require("./models/index-store");
 var gitCommit = require("../local/git-commit");
 var commitButton = document.getElementById("js-commit-button");
-
+var NotificationWrapper = require("node-webkit-notification");
 commitButton.addEventListener("click", function () {
     var indexPath = store.currentIndexPath;
     var fileName = path.dirname(indexPath);
@@ -30,39 +30,3 @@ commitButton.addEventListener("click", function () {
             console.log(error);
         });
 });
-/**
- * Use composition to expand capabilities of Notifications feature.
- */
-function NotificationWrapper(appIcon, title, description, soundFile) {
-
-    /**
-     * A path to a sound file, like /sounds/notification.wav
-     */
-    function playSound(soundFile) {
-        if (soundFile === undefined) {
-            return;
-        }
-        var audio = document.createElement('audio');
-        audio.src = soundFile;
-        audio.play();
-        audio = undefined;
-    }
-
-    /**
-     * Show the notification here.
-     */
-    var notification = new window.Notification(title, {
-        body: description,
-        icon: appIcon
-    });
-
-    /**
-     * Play the sound.
-     */
-    playSound(soundFile);
-
-    /**
-     * Return notification object to controller so we can bind click events.
-     */
-    return notification;
-}
