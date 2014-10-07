@@ -2,10 +2,10 @@
   "name": "JSer.info-editor",
   "description": "Editor for JSer.info",
   "version": "1.0.0",
-  "homepage": "https://github.com/azu/JSer.info-editor/",
+  "homepage": "https://github.com/jser/jser.info-editor/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/azu/JSer.info-editor.git"
+    "url": "https://github.com/jser/jser.info-editor.git"
   },
   "main": "./app/Main/main-view.html",
   "scripts": {
@@ -17,7 +17,7 @@
   "author": "azu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/azu/JSer.info-editor/issues"
+    "url": "https://github.com/jser/JSer.info-editor/issues"
   },
   "dependencies": {
     "codemirror": "^4.5.0",
