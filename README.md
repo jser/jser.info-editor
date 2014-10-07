@@ -21,9 +21,9 @@ git clone https://github.com/jser/jser.info.git /path/to/jser.info
 - 関連サイトを編集
     - リンクをクリックすると編集モードへ
     - titleとurlを持つJSONを入れると反映される
-    - ```json
-      { "title" : "jser/jser.info", "url" : "https://github.com/jser/jser.info"}
-      ```
+    ```json
+          { "title" : "jser/jser.info", "url" : "https://github.com/jser/jser.info"}
+    ```
     - 空にすると削除
 - Commit
     - マシンの`git`コマンドを使って変更をコミットします
