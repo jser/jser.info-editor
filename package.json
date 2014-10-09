@@ -9,7 +9,7 @@
   },
   "main": "./app/Main/main-view.html",
   "scripts": {
-    "test": "mocha test/*.js"
+    "build": "nwbuild -p 'win,osx,linux32,linux64' ./"
   },
   "directories": {
     "test": "test/"
@@ -34,6 +34,6 @@
     "vue": "^0.10.6"
   },
   "devDependencies": {
-    "es6ify": "^1.3.0"
+    "node-webkit-builder": "^0.1.3"
   }
 }
