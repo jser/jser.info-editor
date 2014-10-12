@@ -4,7 +4,7 @@ node_js:
 before_install:
   - npm install -g npm
 after_success:
-  - sh "./_travis/build.sh"
+  - "./_travis/build.sh"
 deploy:
   provider: releases
   api_key:
