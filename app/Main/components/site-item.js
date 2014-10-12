@@ -1,9 +1,10 @@
 "use strict";
 var Ractive = require("ractive");
-var CodeMirror = require("codemirror");
-require('codemirror/mode/markdown/markdown');
+var CodeMirror = window.CodeMirror;
+var registerSpellDictionary = window.registerSpellDictionary;
 var relatedItem = require("./site-related-item");
 var newRelatedItem = require("./site-new-related-item-button");
+registerSpellDictionary("markdown", require("technical-word-rules"));
 module.exports = Ractive.extend({
     data: {
         isEditing: false
@@ -34,10 +35,13 @@ module.exports = Ractive.extend({
             ractive.set("isEditing", true);
             var placeholder = ractive.find(".placeholder-editor");
             var myCodeMirror = CodeMirror.fromTextArea(placeholder, {
-                mode: "markdown",
-                lineWrapping: true
+                lineNumbers: true,
+                mode: "gfm",
+                lineWrapping: true,
+                gutters: ["CodeMirror-lint-markers"],
+                lintTypo: true
             });
-            var originalContent = event.context.content;
+            var originalContent = ractive.data.content;
             myCodeMirror.setValue(originalContent);
             myCodeMirror.addKeyMap({
                 "Ctrl-Enter": function (cm) {

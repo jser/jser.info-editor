@@ -3,6 +3,16 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>JSer.info-editor</title>
+    <script src="../../node_modules/codemirror/lib/codemirror.js"></script>
+    <script src="../../node_modules/codemirror/addon/mode/overlay.js"></script>
+    <script src="../../node_modules/codemirror/mode/javascript/javascript.js"></script>
+    <script src="../../node_modules/codemirror/mode/markdown/markdown.js"></script>
+    <script src="../../node_modules/codemirror/mode/gfm/gfm.js"></script>
+    <script src="../../node_modules/codemirror-spellckecker/lib/lint-typo.js"></script>
+    <script src="../../node_modules/codemirror-spellckecker/lib/register-spell-dictionary.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../node_modules/codemirror/lib/codemirror.css">
+    <link rel="stylesheet" type="text/css" href="../../node_modules/codemirror/addon/lint/lint.css">
+
     <link type="text/css" rel="stylesheet" href="../../node_modules/codemirror/lib/codemirror.css">
 </head>
 <body>
@@ -13,6 +23,7 @@
 </div>
 <article id="js-sidebar">
 </article>
+
 <script src="../node-webkit-lib/workaround.js"></script>
 <script src="../node-webkit-lib/native-menu.js"></script>
 <script src="./index.js"></script>

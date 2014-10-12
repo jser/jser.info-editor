@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "codemirror": "^4.5.0",
+    "codemirror-spellckecker": "^1.0.1",
     "gulp": "^3.8.8",
     "gulp-git": "^0.5.0",
     "load-template": "./lib/load-template",
@@ -29,6 +30,7 @@
     "map-stream": "^0.1.0",
     "node-webkit-notification": "file:lib/node-webkit-notification",
     "ractive": "^0.5.7",
+    "technical-word-rules": "git://github.com/azu/technical-word-rules",
     "traceur": "0.0.62",
     "vinyl-fs": "^0.3.7",
     "vue": "^0.10.6"

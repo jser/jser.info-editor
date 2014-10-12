@@ -1,7 +1,10 @@
+<button on-click="allEdit">編集モード</button>
 <div>
     <ul>
         {{#each sortedList}}
-            <li><sidebarItem value="{{.}}"/></li>
+            <li>
+                <siteItem value="{{.}}"/>
+            </li>
         {{/each}}
     </ul>
 </div>

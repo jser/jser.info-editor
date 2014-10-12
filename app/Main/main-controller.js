@@ -9,14 +9,14 @@ var store = require("./models/index-store");
 var Ractive = require("ractive");
 var config = require("../Config/jser-config");
 module.exports = function loadView() {
-    if(!config.jserDirPath) {
-
+    if (!config.jserDirPath) {
+        return
     }
     var ractive = new Ractive({
         el: '#js-sidebar',
         template: require("fs").readFileSync(__dirname + "/Views/main-sidebar.hbs", "utf-8"),
         components: {
-            "sidebarItem": require("./components/site-item")
+            "siteItem": require("./components/site-item")
         },
         /*
         {
@@ -50,6 +50,12 @@ module.exports = function loadView() {
             }
         },
         debug: true
+    });
+    ractive.on("allEdit", function (context) {
+        var siteItems = ractive.findAllComponents("siteItem");
+        siteItems.forEach(function (item) {
+            item.fire("edit");
+        })
     });
     ractive.observe('sortedList.*', function (newValue, oldValue, keypath) {
         if (oldValue == null) {
