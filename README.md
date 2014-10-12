@@ -6,11 +6,15 @@
 
 ## Installation
 
+[https://github.com/jser/jser.info-editor/releases/latest](https://github.com/jser/jser.info-editor/releases/latest) からバイナリをダウンロード
+
+Gitで [JSer.infoのデータリポジトリ](https://github.com/jser/jser.info.git) を好きな場所にcloneしておく。
+
 ```
 git clone https://github.com/jser/jser.info.git /path/to/jser.info
 ```
 
-起動したら、"設定"から`/path/to/jser.info`のパスを指定します。
+起動したら、"設定"から `/path/to/jser.info`のパスを指定します。
 
 リロードすると、一番新しいjser.infoのデータJSONが読み込まれます。
 
@@ -18,6 +22,7 @@ git clone https://github.com/jser/jser.info.git /path/to/jser.info
 
 - 本文をダブルクリックで編集
     - Ctrl+Enterで保存、Escでキャンセル
+    - [technical-word-rules](https://github.com/azu/technical-word-rules " technical-word-rules")を使ったLint
 - 関連サイトを編集
     - リンクをクリックすると編集モードへ
     - titleとurlを持つJSONを入れると反映される
