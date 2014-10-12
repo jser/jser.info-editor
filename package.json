@@ -9,7 +9,7 @@
   },
   "main": "./app/Main/main-view.html",
   "scripts": {
-    "dist": "mkdir -p build && nwbuild -p 'win,osx,linux32,linux64' ./ -o ./build"
+    "dist": "nwbuild -p 'win,osx,linux32,linux64' ./ -o ./build"
   },
   "directories": {
     "test": "test/"
@@ -37,6 +37,6 @@
     "vue": "^0.10.6"
   },
   "devDependencies": {
-    "node-webkit-builder": "^0.1.3"
+    "node-webkit-builder": "0.1.1"
   }
 }
