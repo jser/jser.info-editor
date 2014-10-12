@@ -12,8 +12,8 @@ deploy:
   file:
     - build/JSer.info-editor-osx.zip
     - build/JSer.info-editor-win.zip
-    - build/JSer.info-editor-linux32.zip
-    - build/JSer.info-editor-linux64.zip
+#    - build/JSer.info-editor-linux32.zip
+#    - build/JSer.info-editor-linux64.zip
   on:
     repo: jser/jser.info-editor
     tags: true
