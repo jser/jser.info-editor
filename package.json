@@ -9,7 +9,7 @@
   },
   "main": "./app/Main/main-view.html",
   "scripts": {
-    "build": "nwbuild -p 'win,osx,linux32,linux64' ./"
+    "dist": "nwbuild -p 'win,osx,linux32,linux64' ./"
   },
   "directories": {
     "test": "test/"
