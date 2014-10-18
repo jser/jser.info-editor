@@ -30,7 +30,7 @@
     "map-stream": "^0.1.0",
     "node-webkit-notification": "file:lib/node-webkit-notification",
     "node-webkit-winstate": "^1.0.1",
-    "ractive": "^0.5.7",
+    "ractive": "^0.6.0",
     "technical-word-rules": "git://github.com/azu/technical-word-rules",
     "traceur": "0.0.62",
     "vinyl-fs": "^0.3.7",
