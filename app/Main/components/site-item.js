@@ -4,7 +4,37 @@ var CodeMirror = window.CodeMirror;
 var registerSpellDictionary = window.registerSpellDictionary;
 var relatedItem = require("./site-related-item");
 var newRelatedItem = require("./site-new-related-item-button");
-registerSpellDictionary("markdown", require("technical-word-rules"));
+var DictionaryStore = require("../models/dictionary-store");
+var dictionaryStore = new DictionaryStore();
+
+function getDictionary(callback) {
+    var http = require('http');
+    var url = 'http://azu.github.io/technical-word-rules/all.json';
+    http.get(url, function (res) {
+        var body = '';
+        res.setEncoding('utf8');
+
+        res.on('data', function (chunk) {
+            body += chunk;
+        });
+
+        res.on('end', function () {
+            var ret = JSON.parse(body);
+            callback(null, ret);
+        });
+    }).on('error', function (e) {
+        callback(e);
+    });
+}
+// 初期化
+registerSpellDictionary("markdown", dictionaryStore.load());
+getDictionary(function (error, result) {
+    if (error) {
+        return console.error(error);
+    }
+    dictionaryStore.save(result);
+    registerSpellDictionary("markdown", result);
+});
 module.exports = Ractive.extend({
     data: {
         isEditing: false
