@@ -11,10 +11,10 @@ var log = function (file, cb) {
     console.log(file.path);
     cb(null, file);
 };
-function gitCommit() {
+function gitPush(callback) {
     var cwd = {
         cwd: jser.jserDirPath
     };
-    return git.push("origin", "gh-pages", cwd);
+    git.push("origin", "gh-pages", cwd, callback);
 }
-module.exports = gitCommit;
+module.exports = gitPush;

@@ -3,17 +3,19 @@ var gitPush = require("../local/git-push");
 var pushButton = document.getElementById("js-push-button");
 var NotificationWrapper = require("node-webkit-notification");
 pushButton.addEventListener("click", function () {
-    gitPush().on('end', function () {
+    gitPush(function (error) {
+        if (error) {
+            new NotificationWrapper(
+                '#',    // image icon path goes here
+                "Error!",
+                error
+            );
+            console.log(error);
+            return
+        }
         new NotificationWrapper(
             '#',    // image icon path goes here
             "Commit!"
         );
-    }).on('error', function (error) {
-        new NotificationWrapper(
-            '#',    // image icon path goes here
-            "Error!",
-            error
-        );
-        console.log(error);
     });
 });

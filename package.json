@@ -9,6 +9,7 @@
   },
   "main": "./app/Main/main-view.html",
   "scripts": {
+    "install": "dos2unix node_modules/node-webkit-builder/bin/nwbuild",
     "dist": "nwbuild -p 'win,osx' ./ -o ./build"
   },
   "directories": {
@@ -37,6 +38,6 @@
     "vue": "^0.10.6"
   },
   "devDependencies": {
-    "node-webkit-builder": "0.1.1"
+    "node-webkit-builder": "^1.0.8"
   }
 }
