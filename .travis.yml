@@ -3,6 +3,8 @@ node_js:
 - '0.10'
 before_install:
   - npm install -g npm
+  - sudo apt-get install tofrodos
+  - sudo ln -s /usr/bin/fromdos /usr/bin/dos2unix
 after_success:
   - "./_travis/build.sh"
 deploy:
