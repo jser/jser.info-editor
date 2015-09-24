@@ -18,7 +18,7 @@ commitButton.addEventListener("click", function () {
         .on('end', function () {
             new NotificationWrapper(
                 '#',    // image icon path goes here
-                "Commit!"
+                "git commit!"
             );
         })
         .on('error', function (error) {

@@ -20,20 +20,20 @@
     "url": "https://github.com/jser/JSer.info-editor/issues"
   },
   "dependencies": {
-    "codemirror": "^4.5.0",
+    "codemirror": "^5.7.0",
     "codemirror-spellckecker": "^1.0.1",
     "gulp": "^3.8.8",
-    "gulp-git": "^0.5.0",
+    "gulp-git": "^1.4.0",
     "load-template": "./lib/load-template",
     "local-store": "^0.2.0",
-    "lodash": "^2.4.1",
+    "lodash": "^3.10.1",
     "map-stream": "^0.1.0",
     "node-webkit-notification": "file:lib/node-webkit-notification",
     "node-webkit-winstate": "^1.0.1",
-    "ractive": "^0.6.0",
+    "ractive": "^0.7.3",
     "technical-word-rules": "git://github.com/azu/technical-word-rules",
-    "vinyl-fs": "^0.3.7",
-    "vue": "^0.10.6"
+    "vinyl-fs": "^1.0.0",
+    "vue": "^0.12.15"
   },
   "devDependencies": {
     "nw-zip-builder": "^1.0.5"

@@ -71,7 +71,7 @@ module.exports = Ractive.extend({
                 gutters: ["CodeMirror-lint-markers"],
                 lintTypo: true
             });
-            var originalContent = ractive.data.content;
+            var originalContent = ractive.get("content");
             myCodeMirror.setValue(originalContent);
             myCodeMirror.addKeyMap({
                 "Ctrl-Enter": function (cm) {

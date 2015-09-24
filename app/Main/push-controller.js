@@ -15,7 +15,7 @@ pushButton.addEventListener("click", function () {
         }
         new NotificationWrapper(
             '#',    // image icon path goes here
-            "Commit!"
+            "git push!"
         );
     });
 });

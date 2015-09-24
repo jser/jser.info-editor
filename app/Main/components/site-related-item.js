@@ -31,7 +31,7 @@ module.exports = Ractive.extend({
             try {
                 result = JSON.parse(node.value);
             } catch (e) {
-                ractive.fire(events.removeRelatedItem, ractive.data.index);
+                ractive.fire(events.removeRelatedItem, ractive.get("index"));
                 return;
             }
             ractive.set("title", result.title);
