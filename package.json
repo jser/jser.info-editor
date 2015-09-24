@@ -9,7 +9,7 @@
   },
   "main": "./app/Main/main-view.html",
   "scripts": {
-    "dist": "nw-zip-builder -p 'win,osx' ./ -o ./build"
+    "dist": "nw-zip-builder -v 0.12.3 -p 'win,osx' ./ -o ./build"
   },
   "directories": {
     "test": "test/"
@@ -36,6 +36,6 @@
     "vue": "^0.12.15"
   },
   "devDependencies": {
-    "nw-zip-builder": "^1.0.5"
+    "nw-zip-builder": "^1.1.0"
   }
 }
