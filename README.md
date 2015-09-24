@@ -1,6 +1,5 @@
 # JSer.info-editor [![Build Status](https://travis-ci.org/jser/jser.info-editor.svg?branch=master)](https://travis-ci.org/jser/jser.info-editor)
 
-
 [JSer.infoアーカイブ](http://jser.info/jser.info/) のエディタアプリです。
 
 - node-webkitアプリ
