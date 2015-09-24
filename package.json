@@ -9,8 +9,7 @@
   },
   "main": "./app/Main/main-view.html",
   "scripts": {
-    "install": "dos2unix node_modules/node-webkit-builder/bin/nwbuild",
-    "dist": "nwbuild -p 'win,osx' ./ -o ./build"
+    "dist": "nw-zip-builder -p 'win,osx' ./ -o ./build"
   },
   "directories": {
     "test": "test/"
@@ -33,11 +32,10 @@
     "node-webkit-winstate": "^1.0.1",
     "ractive": "^0.6.0",
     "technical-word-rules": "git://github.com/azu/technical-word-rules",
-    "traceur": "0.0.62",
     "vinyl-fs": "^0.3.7",
     "vue": "^0.10.6"
   },
   "devDependencies": {
-    "node-webkit-builder": "^1.0.8"
+    "nw-zip-builder": "^1.0.5"
   }
 }
