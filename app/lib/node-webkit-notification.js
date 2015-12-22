@@ -31,7 +31,7 @@ function NotificationWrapper(appIcon, title, description, soundFile) {
      * Show the notification here.
      */
     var notification = new window.Notification(title, {
-        body: description,
+        body: description || "",
         icon: appIcon
     });
 
