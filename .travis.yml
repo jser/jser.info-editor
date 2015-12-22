@@ -10,7 +10,6 @@ deploy:
   api_key:
     secure: DCOkYhsd/rVqKyWS9deaYx+IBd80pz820yOVIDdZgPiBlHX/oOu22rmvDu8nb72UAjol1aenwKwgOEm6sgcsZTwA1IOw1Bwicc7GmHM93LFYoJozcfsXtCFiw7KFFyikuSUibfgJexyEIhnJpSvWrEayzMZK+zuyjoel7AhajZ4=
   file:
-    - build/jser.info-editor/jser.info-editor-osx32.zip
     - build/jser.info-editor/jser.info-editor-osx64.zip
     - build/jser.info-editor/jser.info-editor-win32.zip
     - build/jser.info-editor/jser.info-editor-win64.zip
