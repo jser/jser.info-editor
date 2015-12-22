@@ -1,7 +1,7 @@
 "use strict";
 var gitPush = require("../local/git-push");
 var pushButton = document.getElementById("js-push-button");
-var NotificationWrapper = require("node-webkit-notification");
+var NotificationWrapper = require("../lib/node-webkit-notification");
 pushButton.addEventListener("click", function () {
     gitPush(function (error) {
         if (error) {

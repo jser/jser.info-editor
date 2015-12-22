@@ -24,18 +24,17 @@
     "codemirror-spellckecker": "^1.0.1",
     "gulp": "^3.8.8",
     "gulp-git": "^1.4.0",
-    "load-template": "./lib/load-template",
     "local-store": "^0.2.0",
     "lodash": "^3.10.1",
     "map-stream": "^0.1.0",
-    "node-webkit-notification": "file:lib/node-webkit-notification",
     "node-webkit-winstate": "^1.0.1",
     "ractive": "^0.7.3",
-    "technical-word-rules": "git://github.com/azu/technical-word-rules",
     "vinyl-fs": "^1.0.0",
     "vue": "^0.12.15"
   },
   "devDependencies": {
-    "nw-zip-builder": "^1.1.0"
+    "codemirror-textlint": "^1.0.1",
+    "nw-zip-builder": "^1.1.0",
+    "textlint-rule-preset-japanese": "^1.0.1"
   }
 }

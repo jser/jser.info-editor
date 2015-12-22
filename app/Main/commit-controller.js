@@ -3,7 +3,7 @@ var path = require("path");
 var store = require("./models/index-store");
 var gitCommit = require("../local/git-commit");
 var commitButton = document.getElementById("js-commit-button");
-var NotificationWrapper = require("node-webkit-notification");
+var NotificationWrapper = require("../lib/node-webkit-notification");
 commitButton.addEventListener("click", function () {
     var indexPath = store.currentIndexPath;
     var fileName = path.dirname(indexPath);

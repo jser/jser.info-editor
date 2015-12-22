@@ -6,7 +6,12 @@ var relatedItem = require("./site-related-item");
 var newRelatedItem = require("./site-new-related-item-button");
 var DictionaryStore = require("../models/dictionary-store");
 var dictionaryStore = new DictionaryStore();
-
+var createValidator = require("codemirror-textlint");
+var presetJa = require("textlint-rule-preset-japanese");
+var textlintValidator = createValidator({
+    rules: presetJa.rules,
+    rulesConfig: presetJa.rulesConfig
+});
 function getDictionary(callback) {
     var http = require('http');
     var url = 'http://azu.github.io/technical-word-rules/all.json';
@@ -27,14 +32,13 @@ function getDictionary(callback) {
     });
 }
 // 初期化
-registerSpellDictionary("markdown", dictionaryStore.load());
 getDictionary(function (error, result) {
     if (error) {
         return console.error(error);
     }
     dictionaryStore.save(result);
-    registerSpellDictionary("markdown", result);
 });
+var loadTemplate = require("../../lib/load-template");
 module.exports = Ractive.extend({
     data: {
         isEditing: false
@@ -69,7 +73,10 @@ module.exports = Ractive.extend({
                 mode: "gfm",
                 lineWrapping: true,
                 gutters: ["CodeMirror-lint-markers"],
-                lintTypo: true
+                lint: {
+                    "getAnnotations": textlintValidator,
+                    "async": true
+                }
             });
             var originalContent = ractive.get("content");
             myCodeMirror.setValue(originalContent);
@@ -94,6 +101,6 @@ module.exports = Ractive.extend({
         "relatedItem": relatedItem,
         "newRelatedItem": newRelatedItem
     },
-    template: require("load-template")(__filename + ".hbs"),
-    css: require("load-template")(__filename + ".css")
+    template: loadTemplate(__filename + ".hbs"),
+    css: loadTemplate(__filename + ".css")
 });
