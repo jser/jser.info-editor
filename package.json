@@ -9,7 +9,7 @@
   },
   "main": "./app/Main/main-view.html",
   "scripts": {
-    "dist": "nw-zip-builder -v 0.12.3 -p 'win,osx' ./ -o ./build"
+    "dist": "nw-zip-builder -v 0.12.3 -p 'osx64' ./ -o ./build"
   },
   "directories": {
     "test": "test/"
