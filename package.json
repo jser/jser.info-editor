@@ -29,8 +29,7 @@
     "map-stream": "^0.1.0",
     "node-webkit-winstate": "^1.0.1",
     "ractive": "^0.7.3",
-    "vinyl-fs": "^1.0.0",
-    "vue": "^0.12.15"
+    "vinyl-fs": "^2.2.1"
   },
   "devDependencies": {
     "codemirror-textlint": "^1.0.1",
