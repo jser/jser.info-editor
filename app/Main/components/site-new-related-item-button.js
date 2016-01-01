@@ -4,8 +4,6 @@ var events = {
     insertNewRelatedItem: "insertNewRelatedItem"
 };
 module.exports = Ractive.extend({
-    init: function () {
-    },
     template: require("load-template")(__filename + ".hbs")
 });
 module.exports.events = events;

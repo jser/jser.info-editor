@@ -10,7 +10,7 @@ module.exports = Ractive.extend({
         editingURL: null
     },
     editItem: function (context) {
-        this.set("editingURL", context.url);
+        this.set("editingURL", true);
         // input
         var input = this.find(".related-link-edit");
         input.value = JSON.stringify({
@@ -18,14 +18,14 @@ module.exports = Ractive.extend({
             url: context.url
         });
     },
-    init: function () {
+    onrender: function () {
         var ractive = this;
         this.on("edit", function (event) {
             event.original.preventDefault();
-            this.editItem(event.context);
+            this.editItem(ractive.get());
         });
         function leaveEdit(node) {
-            ractive.set("editingURL", null);
+            ractive.set("editingURL", false);
             // parase
             var result = "";
             try {
