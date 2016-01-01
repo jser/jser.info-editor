@@ -1,7 +1,7 @@
 {
   "name": "jser.info-editor",
   "description": "Editor for JSer.info",
-  "version": "1.2.5",
+  "version": "1.1.7",
   "homepage": "https://github.com/jser/jser.info-editor/",
   "repository": {
     "type": "git",
@@ -9,7 +9,7 @@
   },
   "main": "./app/Main/main-view.html",
   "scripts": {
-    "dist": "nw-zip-builder -v 0.12.3 -p 'osx64' ./ -o ./build"
+    "dist": "nw-zip-builder -v 0.12.3 -p 'win,osx' ./ -o ./build"
   },
   "directories": {
     "test": "test/"
@@ -24,16 +24,18 @@
     "codemirror-spellckecker": "^1.0.1",
     "gulp": "^3.8.8",
     "gulp-git": "^1.4.0",
+    "load-template": "./lib/load-template",
     "local-store": "^0.2.0",
     "lodash": "^3.10.1",
     "map-stream": "^0.1.0",
+    "node-webkit-notification": "file:lib/node-webkit-notification",
     "node-webkit-winstate": "^1.0.1",
     "ractive": "^0.7.3",
-    "vinyl-fs": "^2.2.1"
+    "technical-word-rules": "git://github.com/azu/technical-word-rules",
+    "vinyl-fs": "^1.0.0",
+    "vue": "^0.12.15"
   },
   "devDependencies": {
-    "codemirror-textlint": "^1.0.1",
-    "nw-zip-builder": "^1.1.0",
-    "textlint-rule-preset-japanese": "^1.0.1"
+    "nw-zip-builder": "^1.1.0"
   }
 }
