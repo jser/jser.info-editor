@@ -43,7 +43,7 @@ module.exports = Ractive.extend({
     data: {
         isEditing: false
     },
-    init: function () {
+    onrender: function () {
         var ractive = this;
 
         function saveEditContent(text) {
@@ -62,7 +62,7 @@ module.exports = Ractive.extend({
                 "url": "http://dummy"
             }).then(function () {
                 var addedItem = ractive.findAllComponents("relatedItem").pop();
-                addedItem.editItem(addedItem.data);
+                addedItem.editItem(addedItem.get());
             });
         });
         this.on('edit', function (event) {
